@@ -8,19 +8,19 @@ function Header() {
     return (
         <header>
             <div className='header'>
-                <a href="/"><img src={logo} alt="Sacadon Logo" className='logo_header' /></a>
+                <a href="/" className='logo_header'><img src={logo} alt="Sacadon Logo"/></a>
                 
                 <nav>
                     <ul>
-                        <li><h2><a href="/">Notre mission</a></h2></li>
-                        <li><h2><a href="/about">Nos sacs</a></h2></li>
-                        <li><h2><a href="/services">Impacts</a></h2></li>
-                        <li><h2><a href="/contact">Contact</a></h2></li>
-                        <li><h2><a href="/contact">Nous rejoindre</a></h2></li>
+                        <a href="/"><h2>Notre mission</h2></a>
+                        <a href="/about"><h2>Nos sacs</h2></a>
+                        <a href="/services"><h2>Impacts</h2></a>
+                        <a href="/contact"><h2>Contact</h2></a>
+                        <a href="/contact"><h2>Nous rejoindre</h2></a>
                     </ul>
                 </nav>
-                <img src={shop} alt="Sacadon Logo" className='shopping' />
             </div>
+            <a href="/" className='shopping'><img src={shop} alt="Sacadon Shopt"/></a>
         </header>
     );
 }

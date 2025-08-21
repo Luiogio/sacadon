@@ -2,52 +2,73 @@ header {
   background-size: cover;
   background-image:url('../assets/background-header.png');
   background-position: center 33%;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .header {
   padding-top: 20px;
+  display: flex;
   align-items: center;
-  gap: 60px;
-  height: 169px;
+  gap: 3.6vw;
+  height: 16vh;
   width: 95%;
   position: relative;
-  left: 44px;
-  display: flex;
+  left: 0;
 }
 
-.logo_header {
-  height: 90px;
-  width: 270px;
+.logo_header img {
+  height: auto;
+  width: 18vw;
   object-fit: contain;
+  position: relative;
+  top: 1vh;
+}
+
+nav {
+  height: 8vh;
+  width: 61vw;
+  /* justify-content: center; */
 }
 
 ul {
   display: flex;
-  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
-  gap: 26px;
-  height: 49px;
-  width: 920px;
+  gap: 1.5vw;
+}  
+
+a {
+  text-decoration: none;
+  color: #233B45;
 }
 
 h2 {
-  margin-top: 11px;
-}
-
-h2 a {
-  text-decoration: none;
   background-color: #F5EBDB;
-  color: #233B45;
+  margin-top: 11px;
   font-family: Century Gothic;
-  font-size: 20px;
-  padding: 12px 30px;
   border-radius: 50px;
-}
+  font-size: 1.2vw;
+  padding: 2vh 2vw;
+  /* flex-wrap: wrap; */
+  text-align: center;
+}  
 
 .shopping {
-  height: 45%;
-  position: relative;
-  left: 100px;
+  position: absolute;
+  left: 91vw;
+  top: 7vh;
+  float: right;
+}
+
+.shopping img {
+  height: auto;
+  width: 5vw;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 15vh;
+  }
 }
