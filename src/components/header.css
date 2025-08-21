@@ -1,0 +1,55 @@
+header {
+  background-size: cover;
+  background-image:url('../assets/background-header.png');
+  background-position: center 33%;
+}
+
+.header {
+  padding-top: 20px;
+  align-items: center;
+  gap: 60px;
+  height: 169px;
+  width: 95%;
+  position: relative;
+  left: 44px;
+  display: flex;
+  /* justify-content: start; */
+}
+
+.logo_header {
+  height: 90px;
+  width: 270px;
+  object-fit: contain;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 26px;
+  height: 49px;
+  width: 920px;
+}
+
+h2 {
+  margin-top: 11px;
+}
+
+h2 a {
+  text-decoration: none;
+  background-color: #F5EBDB;
+  color: #233B45;
+  font-family: Century Gothic;
+  font-size: 20px;
+  /* padding: 23px 46px; */
+  padding: 12px 30px;
+  border-radius: 50px;
+}
+
+.shopping {
+  height: 45%;
+  position: relative;
+  left: 100px;
+}
