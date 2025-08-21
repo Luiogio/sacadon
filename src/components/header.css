@@ -13,7 +13,6 @@ header {
   position: relative;
   left: 44px;
   display: flex;
-  /* justify-content: start; */
 }
 
 .logo_header {
@@ -43,7 +42,6 @@ h2 a {
   color: #233B45;
   font-family: Century Gothic;
   font-size: 20px;
-  /* padding: 23px 46px; */
   padding: 12px 30px;
   border-radius: 50px;
 }
