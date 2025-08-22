@@ -2,13 +2,14 @@ import React from 'react';
 import './header.css';
 import logo from '../assets/logo_header.png';
 import shop from '../assets/shop.png';
+import menu from '../assets/menu.png';
 export default Header;
 
 function Header() {
     return (
         <header>
             <div className='header'>
-                <a href="/" className='logo_header'><img src={logo} alt="Sacadon Logo"/></a>
+                <a href="/"><img src={logo} alt="Sacadon Logo"/></a>
                 
                 <nav>
                     <ul>
@@ -20,7 +21,8 @@ function Header() {
                     </ul>
                 </nav>
             </div>
-            <a href="/" className='shopping'><img src={shop} alt="Sacadon Shopt"/></a>
+            <a href="/" className='shopping'><img src={shop} alt="Sacadon Shop"/></a>
+            <a href="/" className='menu'><img src={menu} alt="Sacadon Menu"/></a>
         </header>
     );
 }
