@@ -1,9 +1,15 @@
 header {
   background-size: cover;
-  background-image:url('../assets/background-header.png');
+  background-image:url('../assets/background_header.png');
   background-position: center 33%;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+button {
+  background-color: transparent;
+  margin: 0;
+  border: 0;
 }
 
 .header {
@@ -19,34 +25,29 @@ header {
   height: auto;
   width: 18vw;
   object-fit: contain;
-  /* position: relative;
-  top: 1vh; */
 }
 
-nav {
+.nav_header {
   height: 8vh;
   width: 61vw;
 }
 
-ul {
+.nav_header ul {
   display: flex;
-  list-style: none;
+  /* list-style: none; */
   padding: 0;
   margin: 0;
   gap: 1.5vw;
 }  
 
-a {
-  text-decoration: none;
+.nav_header button {
   color: #233B45;
-}
-
-h2 {
   background-color: #F5EBDB;
   margin-top: 11px;
   font-family: Century Gothic;
   border-radius: 50px;
   font-size: 1.2vw;
+  font-weight: bold;
   padding: 2vh 2vw;
   text-align: center;
 }  
@@ -68,7 +69,7 @@ h2 {
 }
 
 @media (max-width: 768px) {
-  nav, .shopping {
+  .nav_header , .shopping {
     display: none;
   }
 
