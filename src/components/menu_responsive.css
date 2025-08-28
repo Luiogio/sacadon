@@ -80,7 +80,6 @@ a:focus, a:active {
   position: relative;
   bottom: 13px;
   left: 13vw;
-  /* transform: rotate(180deg); */
   transition: transform 0.9s ease-in-out;
 }
 
@@ -191,6 +190,7 @@ a:focus, a:active {
 
   .impact_menu_resp div {
     left: 17px;
+    top: 1px;
   }
 
   .img_rotated, .img_rotated.down {

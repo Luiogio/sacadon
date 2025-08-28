@@ -6,10 +6,8 @@ export default function MenuResponsive({activeMenu}) {
   const [moved, setMoved] = useState(false);
   const [angle, setAngle] = useState(false);
   
-  const handleClick = (e) => {
-    e.preventDefault(); // empêche le comportement par défaut du <a>
+  const handleClick = () => {
     setMoved(!moved);
-
     setAngle(prev => prev + 180); // ajoute 180° à chaque clic
   };
 
@@ -19,7 +17,7 @@ export default function MenuResponsive({activeMenu}) {
                 <ul>
                     <button href="/" className='menu_resp_'>Notre mission</button>
                     <button href="/about" className='menu_resp_'>Nos sacs</button>
-                    <button href="/services" onClick={handleClick} className='impact_menu_resp'>
+                    <button onClick={handleClick} className='impact_menu_resp'>
                         <div>Impacts </div>
                         <img 
                             className={`img_rotated ${moved ? "down" : ""}`} 
