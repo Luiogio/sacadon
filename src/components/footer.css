@@ -1,0 +1,118 @@
+footer {
+  background: #223B45;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  height: 15vh;
+}
+
+.logo_footer {
+  width: 17vw;
+  margin-left: 2vw;
+}
+
+.logo_footer img {
+  height: auto;
+  width: 16vw;
+}
+
+.logo_footer div{
+  color: #F4EBDC;
+  font-family: 'Century Gothic';
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 1vw;
+  width: 14vw;
+  text-align: center;
+  position: relative;
+  bottom: 3vh;
+}
+
+.nav_footer {
+  width: 61vw;
+}
+
+.nav_footer ul {
+  display: flex;
+  padding: 0;
+  gap: 1.5vw;
+}  
+
+.nav_footer button {
+  color: #F4EBDC;
+  margin-top: 11px;
+  font-family: 'Century Gothic';
+  border-radius: 50px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.media_sacadon {
+  display: flex;
+  gap: 1.3vw;
+}
+
+.media_sacadon img {
+  height: auto;
+  width: 3vw;
+}
+
+@media (max-width: 1440px) {
+  .logo_footer div {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo_footer div {
+    font-size: 10px;
+    bottom: 2vh;
+  }
+}
+
+@media (max-width: 768px) {
+  footer, .nav_footer ul {
+    flex-direction: column;
+  }
+  
+  .logo_footer {
+    margin-left: 0;
+  }
+
+  .logo_footer img {
+    width: 30vw;
+  }
+
+  .logo_footer div {
+    font-size: 15px;
+    width: 29vw;
+  }
+
+  .nav_footer ul {
+    margin: 0;
+    gap: 1vw;
+  }
+
+  .nav_footer button {
+    font-weight: bold;
+  }
+
+  .vertical_bar {
+    width: 20vw;
+    height: 1px;
+    background-color: #DB214F;
+  }
+
+  .media_sacadon {
+    margin: 26px 0;
+  }
+  
+  .media_sacadon img {
+    width: 5vw;
+  }
+}

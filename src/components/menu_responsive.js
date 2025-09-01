@@ -15,8 +15,8 @@ export default function MenuResponsive({activeMenu}) {
         <div className={`menu_resp ${activeMenu ? "down" : ""}`}>
             <nav>
                 <ul>
-                    <button href="/" className='menu_resp_'>Notre mission</button>
-                    <button href="/about" className='menu_resp_'>Nos sacs</button>
+                    <button className='menu_resp_'>Notre mission</button>
+                    <button className='menu_resp_'>Nos sacs</button>
                     <button onClick={handleClick} className='impact_menu_resp'>
                         <div>Impacts </div>
                         <img 
@@ -27,14 +27,14 @@ export default function MenuResponsive({activeMenu}) {
                     </button>
 
                     <div className={`select_impact ${moved ? "down" : ""}`}>
-                        <button href="/" className='impact_menu'>Ecologique</button>
-                        <button href="/" className='impact_menu'>Humanitaire</button>
-                        <button href="/" className='impact_menu'>Informations & pédagogie</button>
+                        <button className='impact_menu'>Ecologique</button>
+                        <button className='impact_menu'>Humanitaire</button>
+                        <button className='impact_menu'>Informations & pédagogie</button>
                     </div>
                     
-                    <button href="/contact" className={`down_menu ${moved ? "down" : ""}`}>Contact</button>
-                    <button href="/contact" className={`down_menu ${moved ? "down" : ""}`}>Nous rejoindre</button>
-                    <button href="/contact" className={`shop_menu ${moved ? "down" : ""}`}>Panier</button>
+                    <button className={`down_menu ${moved ? "down" : ""}`}>Contact</button>
+                    <button className={`down_menu ${moved ? "down" : ""}`}>Nous rejoindre</button>
+                    <button className={`shop_menu ${moved ? "down" : ""}`}>Panier</button>
                 </ul>
             </nav>
         </div>
