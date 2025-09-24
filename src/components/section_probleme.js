@@ -53,6 +53,8 @@ export default function ProblemeSection() {
             <p className="card-text">
               jusqu'à l'infini : C'est l'estimation de la durée de vie du
               plastique*
+              
+              check
             </p>
           </div>
 
