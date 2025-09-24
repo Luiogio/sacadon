@@ -1,14 +1,15 @@
 footer {
   background: #223B45;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   display: flex;
   align-items: center;
-  gap: 2vw;
-  height: 15vh;
+  gap: 1vw;
+  height: 18vh;
+  /* justify-content: center; */
 }
 
 .logo_footer {
@@ -48,7 +49,7 @@ footer {
   margin-top: 11px;
   font-family: 'Century Gothic';
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -69,6 +70,10 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  footer {
+    height: 53%;
+  }
+
   .logo_footer div {
     font-size: 10px;
     bottom: 2vh;
@@ -82,6 +87,7 @@ footer {
   
   .logo_footer {
     margin-left: 0;
+    width: 32vw;
   }
 
   .logo_footer img {

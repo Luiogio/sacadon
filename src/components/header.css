@@ -71,7 +71,7 @@ button {
   width: 22vw;
   position: absolute;
   top: 14vh;
-  right: 39.5vw;
+  right: 41vw;
 
   max-height: 0;
   transition: max-height 0.5s ease, padding 0.3s ease;
@@ -82,7 +82,7 @@ button {
   width: 22vw;
   position: absolute;
   top: 14vh;
-  right: 39.5vw;
+  right: 41vw;
 
   max-height: 27vh;
 }
@@ -103,6 +103,12 @@ button {
   font-weight: bold;
   padding: 2vh 2vw;
   text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .nav_impact, .nav_impact.down {
+    right: 42vw;
+  }
 }
 
 @media (max-width: 768px) {

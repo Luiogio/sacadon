@@ -1,0 +1,125 @@
+.probleme-section {
+  min-height: 100vh;
+  background-color: #F4EBDC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Titres */
+.top-section {
+  display: flex;
+  gap: 17vw;
+  justify-content: space-between;
+}
+
+.title-probleme {
+  position: relative;
+  right: 10rem;
+}
+
+.title {
+  font-family: 'Fredoka';
+  font-size: 64px;
+  font-weight: 500;
+  color: #2CA397;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 40px;
+  font-family: 'Cormorant Garamond';
+  color: #DB214F;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* text-align: center; */
+}  
+
+.intro {
+  font-family: 'Century Gothic';
+  font-size: 21px;
+  font-weight: 400;
+  color: #223B45;
+  width: 20vw;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+/* Grille principale */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  max-width: 88vw;
+  /* width: 100%; */
+  align-items: center;
+}  
+
+.pollution-image {
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+  display: block;
+  /* overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
+}  
+
+/* Zone texte */
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}  
+
+.card {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 30px;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-number {
+  font-family: 'Fredoka';
+  font-size: 63px;
+  font-weight: 500;
+  color: #223B45;
+  margin: auto 19px;
+  width: 13rem;
+}
+
+.card-text {
+  font-family: 'Century Gothic';
+  font-size: 19px;
+  font-weight: 400;
+  color: #223B45;
+  width: 17rem;
+}
+
+.source, .source a {
+  font-family: 'Century Gothic';
+  font-size: 19px;
+  color: #223B45;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
