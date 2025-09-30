@@ -1,5 +1,5 @@
 import './section_probleme.css';
-import tortue from '../assets/tortue_plastique.png';
+import tortue from '../assets/our_mission/tortue_plastique.png';
 
 export default function ProblemeSection() {
   return (
@@ -26,7 +26,7 @@ export default function ProblemeSection() {
           />
           <div className="source">
             Source :
-            <a href='https://www.nationalgeographic.fr/le-plastique-en-10-chiffres'>
+            <a href='https://www.nationalgeographic.fr/le-plastique-en-10-chiffres' target="_blank">
               National Geographic
             </a>
           </div>
@@ -53,8 +53,6 @@ export default function ProblemeSection() {
             <p className="card-text">
               jusqu'à l'infini : C'est l'estimation de la durée de vie du
               plastique*
-              
-              check
             </p>
           </div>
 

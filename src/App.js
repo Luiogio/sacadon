@@ -3,6 +3,7 @@ import Header from './components/header';
 import MenuResponsive from './components/menu_responsive';
 import MissionSection from './components/section_mission';
 import ProblemeSection from './components/section_probleme';
+import SolutionSection from './components/section_solution';
 import Footer from './components/footer';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
 
       <MissionSection />
       <ProblemeSection />
+      <SolutionSection />
 
       <Footer/>
     </div>
