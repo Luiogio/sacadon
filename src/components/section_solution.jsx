@@ -13,32 +13,30 @@ export default function SolutionSection() {
         <div className="solution-card">
           <img src={design} alt="Design Responsable" />
 
-          <div className="title-card">
-            <div className='text'>DESIGN RESPONSABLE</div> </div>
+          <div className="title-card">DESIGN RESPONSABLE</div>
+          
           <div className="text-card">
-            Des <b>sacs esthétiques</b> fabriqués en{" "}
-            <b>plastique recyclé</b>
+            Des <b>sacs esthétiques</b> fabriqués en <b>plastique recyclé</b>
           </div>
         </div>
 
         <div className="solution-card">
           <img src={ethique} alt="Label Éthique" />
 
-          <div className="title-card">LABEL ÉTHIQUE</div>
+          <div className="title-card"><div>LABEL ÉTHIQUE</div></div>
+          
           <div className="text-card">
-            La possibilité d’apposer notre logo comme{" "}
-            <b>label</b> sur d’autres{" "}
-            <b>produits à impact</b>
+            La possibilité d’apposer notre logo comme <b>label</b> sur d’autres <b>produits à impact</b>
           </div>
         </div>
 
         <div className="solution-card">
           <img src={impact_solidaire} alt="Impact Solidaire" />
 
-          <div className="title-card">IMPACT SOLIDAIRE</div>
+          <div className="title-card"><div>IMPACT SOLIDAIRE</div></div>
+
           <div className="text-card">
-            Des <b>dons</b> reversés à des{" "}
-            <b>associations partenaires</b>
+            Des <b>dons</b> reversés à des <b>associations partenaires</b>
           </div>
         </div>
       </div>

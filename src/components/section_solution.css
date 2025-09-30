@@ -7,7 +7,7 @@
 /* Titre */
 .solution-title {
   font-size: 64px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2CA397; /* vert canard */
   margin-top: 0px;
   margin-bottom: 50px;
@@ -17,8 +17,8 @@
 .solution-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  max-width: 1100px;
+  gap: 40px;
+  width: 64vw;
   margin: 0 auto;
 }
 
@@ -26,26 +26,13 @@
 .solution-card {
   background: #fff;
   border-radius: 20px;
-  padding: 30px;
+  padding: 60px 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
 }
 
 .solution-card:hover {
   transform: translateY(-5px);
-}
-
-.solution-card h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  color: #1a1a1a;
-}
-
-.solution-card p {
-  font-size: 16px;
-  color: #444;
-  line-height: 1.5;
 }
 
 /* Icônes */
@@ -56,9 +43,14 @@
 
 .title-card {
   font-family: 'Fredoka';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   color: #223B45;
+  height: 80px;
+}
+
+.title-card div {
+  padding-top: 20px;
 }
 
 .text-card {
@@ -66,6 +58,8 @@
   font-weight: 400;
   font-size: 20px;
   color: #223B45;
+  margin-top: 10px;
+  line-height: 150%;
 }
 
 /* Bouton */
@@ -74,13 +68,13 @@
 }
 
 .solution-button button {
-  background-color: #e6005c; /* rose vif */
-  color: white;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  border: none;
-  padding: 12px 28px;
-  border-radius: 999px;
+  font-family: 'Century Gothic';
+  background-color: #DB214F;
+  color: white;
+  padding: 13px 52px;
+  border-radius: 15px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
