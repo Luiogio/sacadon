@@ -3,8 +3,16 @@ import logo from '../assets/logo_footer.png';
 import linkedin from '../assets/linkedin.png';
 import insta from '../assets/instagram.png';
 import mail from '../assets/mail.png';
+import arrow from '../assets/arrow_to_top.png';
 
 export default function Footer() {
+    // Fonction qui remonte en haut
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // défilement fluide
+      });
+    };
 
     return (
       <footer>
@@ -34,7 +42,12 @@ export default function Footer() {
             <img src={linkedin} alt="Sacadon linkedin"/>
             <img src={insta} alt="Sacadon insta"/>
             <img src={mail} alt="Sacadon mail"/>
-          </div>
+         </div>
+        
+        {/* Fleche pour remonter la page */}
+        <button className="scroll-top-btn" onClick={scrollToTop}>
+            <img src={arrow} alt="Arrow to top"/>
+        </button>
       </footer>
     );
 }

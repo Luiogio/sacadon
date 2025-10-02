@@ -63,6 +63,17 @@ footer {
   width: 3vw;
 }
 
+/* Fleche pour remonter la page */
+.scroll-top-btn {
+  position: relative;
+  bottom: 10rem;
+  right: 10rem;
+}
+
+.scroll-top-btn img {
+  width: 70px;
+}
+
 @media (max-width: 1440px) {
   .logo_footer div {
     font-size: 13px;

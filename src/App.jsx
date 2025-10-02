@@ -4,6 +4,7 @@ import MenuResponsive from './components/menu_responsive.jsx';
 import MissionSection from './components/section_mission.jsx';
 import ProblemeSection from './components/section_probleme.jsx';
 import SolutionSection from './components/section_solution.jsx';
+import HistorySection from './components/section_history.jsx';
 import Footer from './components/footer';
 
 function App() {
@@ -12,17 +13,15 @@ function App() {
 
   return (
     <>
-      <div id=''>
-        <Header onShowSecond={() => setShowSecond(!showSecond)} />
+      <Header onShowSecond={() => setShowSecond(!showSecond)} />
 
-        {showSecond && <MenuResponsive activeMenu={showSecond}/>}
+      {showSecond && <MenuResponsive activeMenu={showSecond}/>}
+      <MissionSection />
+      <ProblemeSection />
+      <SolutionSection />
+      <HistorySection />
 
-        <MissionSection />
-        <ProblemeSection />
-        <SolutionSection />
-
-        <Footer/>
-      </div>
+      <Footer/>
     </>
   )
 }
