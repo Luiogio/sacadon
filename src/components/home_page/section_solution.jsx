@@ -1,7 +1,8 @@
 import './section_solution.css';
-import design from '../assets/our_mission/design_responsable.png';
-import ethique from '../assets/our_mission/label_ethique.png';
-import impact_solidaire from '../assets/our_mission/impact_solidaire.png';
+
+import design from '../../assets/home_page/our_solution/design_responsable.png';
+import ethique from '../../assets/home_page/our_solution/label_ethique.png';
+import impact_solidaire from '../../assets/home_page/our_solution/impact_solidaire.png';
 
 export default function SolutionSection() {
   return (

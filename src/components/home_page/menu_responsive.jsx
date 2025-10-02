@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './menu_responsive.css';
-import bottom_arrow from '../assets/bottom_arrow.png';
+
+import bottom_arrow from '../../assets/home_page/bottom_arrow.png';
 
 export default function MenuResponsive({activeMenu}) {
   const [moved, setMoved] = useState(false);

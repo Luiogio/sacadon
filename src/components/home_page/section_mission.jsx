@@ -1,5 +1,6 @@
 import './section_mission.css';
-import sacNotreMission from '../assets/our_mission/sac_notre_mission.png';
+
+import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
 
 export default function MissionSection() {
   return (

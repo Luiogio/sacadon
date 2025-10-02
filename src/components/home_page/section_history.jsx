@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './section_history.css';
-import history_picture from '../assets/history_picture.png';
-import logo_S from '../assets/logo_S.png';
+import history_picture from '../../assets/home_page/history_picture.png';
+import logo_S from '../../assets/home_page/logo_S.png';
 
 export default function HistorySection() {
   return (

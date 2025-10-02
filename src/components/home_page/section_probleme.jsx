@@ -1,5 +1,6 @@
 import './section_probleme.css';
-import tortue from '../assets/our_mission/tortue_plastique.png';
+
+import tortue from '../../assets/home_page/tortue_plastique.png';
 
 export default function ProblemeSection() {
   return (

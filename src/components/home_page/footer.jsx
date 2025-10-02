@@ -1,9 +1,10 @@
 import './footer.css';
-import logo from '../assets/logo_footer.png';
-import linkedin from '../assets/linkedin.png';
-import insta from '../assets/instagram.png';
-import mail from '../assets/mail.png';
-import arrow from '../assets/arrow_to_top.png';
+
+import logo from '../../assets/home_page/logo_footer.png';
+import linkedin from '../../assets/home_page/linkedin.png';
+import insta from '../../assets/home_page/instagram.png';
+import mail from '../../assets/home_page/mail.png';
+import arrow from '../../assets/home_page/arrow_to_top.png';
 
 export default function Footer() {
     // Fonction qui remonte en haut

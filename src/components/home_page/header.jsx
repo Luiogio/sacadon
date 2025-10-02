@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
+
 import './header.css';
-import logo from '../assets/logo_header.png';
-import shop from '../assets/shop.png';
-import menu from '../assets/menu.png';
+
+import logo from '../../assets/home_page/logo_header.png';
+import shop from '../../assets/home_page/shop.png';
+import menu from '../../assets/home_page/menu.png';
 
 export default function Header({onShowSecond}) {
   const [moved, setMoved] = useState(false);
@@ -21,13 +24,14 @@ export default function Header({onShowSecond}) {
       }
     };
     
+    // Menu déroulant Menu Impact
     if (moved) {
         document.addEventListener("mousedown", handleClickOutside);
       } else {
         document.removeEventListener("mousedown", handleClickOutside);
       }
   
-      // nettoyage
+      // Nettoyage
       return () => {
         document.removeEventListener("mousedown", handleClickOutside);
       };
@@ -40,7 +44,7 @@ export default function Header({onShowSecond}) {
                     
                     <nav className='nav_header'>
                         <ul>
-                            <button>Notre mission</button>
+                            <button><Link>Notre mission</Link></button>
                             <button>Nos sacs</button>
                             <button onClick={clickImpact} ref={impactButton}>Impacts</button>
                             <button>Contact</button>

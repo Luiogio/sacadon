@@ -1,6 +1,6 @@
 header {
   background-size: cover;
-  background-image:url('../assets/background_header.png');
+  background-image:url('../../assets/home_page/background_header.png');
   background-position: center 33%;
   width: 100%;
 }
@@ -9,6 +9,11 @@ button {
   background-color: transparent;
   margin: 0;
   border: 0;
+}
+
+button a{
+  text-decoration: none;
+  color: #223B45;
 }
 
 .header {
