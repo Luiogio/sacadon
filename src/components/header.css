@@ -1,0 +1,159 @@
+header {
+  background-size: cover;
+  background-image:url('../assets/header_footer/background_header.png');
+  background-position: center 33%;
+  width: 100%;
+}
+
+button {
+  background-color: transparent;
+  margin: 0;
+  border: 0;
+}
+
+button a{
+  text-decoration: none;
+  color: #223B45;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3.6vw;
+  height: 19vh;
+  position: relative;
+  left: 0;
+}
+
+.header img {
+  height: auto;
+  width: 18vw;
+  object-fit: contain;
+}
+
+.nav_header {
+  height: 8vh;
+  width: 61vw;
+}
+
+.nav_header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 1.5vw;
+}  
+
+.nav_header button {
+  color: #233B45;
+  background-color: #F5EBDB;
+  margin-top: 11px;
+  font-family: Century Gothic;
+  border-radius: 50px;
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 2vh 2vw;
+  text-align: center;
+}  
+
+.shopping {
+  position: absolute;
+  left: 90vw;
+  top: 5vh;
+  float: right;
+}
+
+.shopping img {
+  height: auto;
+  width: 5vw;
+}
+
+.menu {
+  display: none ;
+}
+
+/* CSS Impact menu */
+.nav_impact {
+  width: 22vw;
+  position: absolute;
+  top: 14vh;
+  right: 41vw;
+
+  max-height: 0;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+  overflow: hidden;
+}
+
+.nav_impact.down {
+  width: 22vw;
+  position: absolute;
+  top: 14vh;
+  right: 41vw;
+
+  max-height: 27vh;
+}
+
+.nav_impact ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.nav_impact button {
+  color: #233B45;
+  background-color: #F5EBDB;
+  margin-top: 11px;
+  font-family: Century Gothic;
+  border-radius: 50px;
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 2vh 2vw;
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .nav_impact, .nav_impact.down {
+    right: 42vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav_header , .shopping, .nav_impact, .nav_impact.down {
+    display: none;
+  }
+
+  .header {
+   height: 15vh;
+   justify-content: center;
+  }
+
+  .header img {
+    width: 50vw;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    left: 87vw;
+    top: 4vh;
+    float: right;
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    height: 10vh;
+  }
+
+  .header img {
+    width: 75vw;
+  }
+
+  .menu {
+    left: 85vw;
+    top: 3vh;
+  }
+
+  .menu img {
+    width: 10vw;
+  }
+}

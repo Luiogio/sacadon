@@ -1,0 +1,85 @@
+.solution {
+  background-color: #F4EBDC;
+  text-align: center;
+  font-family: 'Fredoka';
+}
+
+/* Titre */
+.solution-title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #2CA397; /* vert canard */
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+/* Grille */
+.solution-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 64vw;
+  margin: 0 auto;
+}
+
+/* Carte */
+.solution-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 60px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.solution-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Icônes */
+.solution-card img {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.title-card {
+  font-family: 'Fredoka';
+  font-weight: 600;
+  font-size: 32px;
+  color: #223B45;
+  height: 80px;
+}
+
+.title-card div {
+  padding-top: 20px;
+}
+
+.text-card {
+  font-family: 'Century Gothic';
+  font-weight: 400;
+  font-size: 20px;
+  color: #223B45;
+  margin-top: 10px;
+  line-height: 150%;
+}
+
+/* En savoir plus */
+.solution-button {
+  margin-top: 40px;
+}
+
+.solution-button button {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Century Gothic';
+  background-color: #DB214F;
+  color: white;
+  padding: 13px 52px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.solution-button button:hover {
+  background-color: #cc0052;
+}
+
