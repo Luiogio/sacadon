@@ -5,16 +5,14 @@ header {
   width: 100%;
 }
 
-button {
-  background-color: transparent;
-  margin: 0;
-  border: 0;
-}
-
-button a{
-  text-decoration: none;
-  color: #223B45;
-}
+.logo_header img {
+  height: auto;
+  width: 18vw;
+  object-fit: contain;
+  /* background-color: transparent; */
+  /* margin: 0; */
+  /* border: 0; */
+}  
 
 .header {
   display: flex;
@@ -23,13 +21,29 @@ button a{
   height: 19vh;
   position: relative;
   left: 0;
+}  
+
+.btn_header {
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-size: 1.2vw;
+  font-weight: bold;
+  color: #223B45;
+  background-color: #F5EBDB;
+  margin: 0;
+  margin-top: 11px;
+  padding: 2vh 2vw;
+  border: 0;
+  border-radius: 50px;
+  text-align: center;
 }
 
-.header img {
-  height: auto;
-  width: 18vw;
-  object-fit: contain;
-}
+/* //// */
+button {
+  background-color: transparent;
+  margin: 0;
+  border: 0;
+}  
 
 .nav_header {
   height: 8vh;
@@ -43,6 +57,7 @@ button a{
   gap: 1.5vw;
 }  
 
+/* //// */
 .nav_header button {
   color: #233B45;
   background-color: #F5EBDB;
@@ -55,15 +70,12 @@ button a{
   text-align: center;
 }  
 
+/* //// */
 .shopping {
   position: absolute;
   left: 90vw;
   top: 5vh;
   float: right;
-}
-
-.shopping img {
-  height: auto;
   width: 5vw;
 }
 
@@ -98,7 +110,9 @@ button a{
   margin: 0;
 }
 
-.nav_impact button {
+/* //// */
+.btn_nav_impact {
+  text-decoration: none;
   color: #233B45;
   background-color: #F5EBDB;
   margin-top: 11px;

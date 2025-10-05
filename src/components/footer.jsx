@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './footer.css';
 
 import logo from '../assets/header_footer/logo_footer.png';
@@ -29,11 +30,17 @@ export default function Footer() {
               
           <nav className='nav_footer'>
               <ul>
-                  <button>Conditions générales de ventes</button>
-                  <button>Conditions générales d’utilisations</button>
-                  <button>Mentions légales</button>
-                  <button>Politiques de confidentialité & cookies</button>
-                  <button>FAQ</button>
+                  <Link className='btn_footer'>Conditions générales de ventes</Link>
+                  <Link className='btn_footer'>Conditions générales d’utilisations</Link>
+                  <Link className='btn_footer'>Mentions légales</Link>
+                  <Link className='btn_footer'>Politiques de confidentialité & cookies</Link>
+                  <Link className='btn_footer'>FAQ</Link>
+
+                  {/* <button className='btn_footer'>Conditions générales de ventes</button>
+                  <button className='btn_footer'>Conditions générales d’utilisations</button>
+                  <button className='btn_footer'>Mentions légales</button>
+                  <button className='btn_footer'>Politiques de confidentialité & cookies</button>
+                  <button className='btn_footer'>FAQ</button> */}
               </ul>
           </nav>
 
@@ -46,9 +53,9 @@ export default function Footer() {
          </div>
         
         {/* Fleche pour remonter la page */}
-        <button className="scroll-top-btn" onClick={scrollToTop}>
-            <img src={arrow} alt="Arrow to top"/>
-        </button>
+        {/* <button className="scroll-top-btn" onClick={scrollToTop}> */}
+            <img src={arrow} alt="Arrow to top" className="scroll-top-btn" onClick={scrollToTop}/>
+        {/* </button> */}
       </footer>
     );
 }

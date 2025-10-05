@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 
-import './header.css';
+import "./header.css";
 
-import logo from '../assets/header_footer/logo_header.png';
-import shop from '../assets/header_footer/shop.png';
-import menu from '../assets/header_footer/menu.png';
+import logo from "../assets/header_footer/logo_header.png";
+import shop from "../assets/header_footer/shop.png";
+import menu from "../assets/header_footer/menu.png";
 
 export default function Header({onShowSecond}) {
 
@@ -16,7 +16,8 @@ export default function Header({onShowSecond}) {
   const clickImpact = () => {
     setMoved(!moved);
   };
-
+  
+  // Menu déroulant Menu Impact
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (impactEvent.current && !impactEvent.current.contains(event.target)
@@ -25,7 +26,6 @@ export default function Header({onShowSecond}) {
       }
     };
     
-    // Menu déroulant Menu Impact
     if (moved) {
         document.addEventListener("mousedown", handleClickOutside);
       } else {
@@ -40,31 +40,48 @@ export default function Header({onShowSecond}) {
   
     return (
         <header>
-            <div className='header'>
-                <button><img src={logo} alt="Sacadon Logo"/></button>
+            <div className="header">
+                <div className="logo_header"><img src={logo} alt="Sacadon Logo"/></div>
                     
-                    <nav className='nav_header'>
+                    <nav className="nav_header">
                         <ul>
-                            <button><Link>Notre mission</Link></button>
-                            <button>Nos sacs</button>
-                            <button onClick={clickImpact} ref={impactButton}>Impacts</button>
-                            <button>Contact</button>
-                            <button>Nous rejoindre</button>
+                            <Link to="/" className="btn_header">Notre mission</Link>
+                            <Link to="/nos-sacs" className="btn_header">Nos sacs</Link>
+                            <Link className="btn_header" onClick={clickImpact} ref={impactButton}>
+                              Impacts
+                            </Link>
+                            <Link className="btn_header">Contact</Link>
+                            <Link className="btn_header">Nous rejoindre</Link>
+
+                            {/* <button>Nos sacs</button> */}
+                            {/* <button onClick={clickImpact} ref={impactButton}>Impacts</button> */}
+                            {/* <button>Contact</button> */}
+                            {/* <button>Nous rejoindre</button> */}
                         </ul>
                     </nav>
 
             </div>
             
+            {/* Menu Impacts */}
             <nav ref={impactEvent} className={`nav_impact ${moved ? "down" : ""}`}>
                 <ul>
-                    <button className=''>Ecologique</button>
-                    <button className=''>Humanitaire</button>
-                    <button className=''>Informations & pédagogie</button>
+                    <Link className="btn_nav_impact">Ecologique</Link>
+                    <Link className="btn_nav_impact">Humanitaire</Link>
+                    <Link className="btn_nav_impact">Informations & pédagogie</Link>
+
+                    {/* <button className="btn_nav_impact">Ecologique</button>
+                    <button className="btn_nav_impact">Humanitaire</button>
+                    <button className="btn_nav_impact">Informations & pédagogie</button> */}
                 </ul>
             </nav>
 
-            <button className='shopping'><img src={shop} alt="Sacadon Shop"/></button>
-            <button onClick={onShowSecond} className='menu'><img src={menu} alt="Sacadon Menu"/></button>
+            {/* <button className="shopping"> */}
+              <img src={shop} alt="Sacadon Shop" className="shopping"/>
+            {/* </button> */}
+
+            {/* <button onClick={onShowSecond} className="menu"> */}
+              <img src={menu} alt="Sacadon Menu" onClick={onShowSecond} className="menu"/>
+              {/* </button> */}
         </header>
     );
 }

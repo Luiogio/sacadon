@@ -2,13 +2,13 @@ import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
 
 // Our Bags Component
-import MissionSection from '../home_page/section_mission.jsx';
+import OurBagsSection from './section_our_bags.jsx';
 import ProblemeSection from '../home_page/section_probleme.jsx';
 import SolutionSection from '../home_page/section_solution.jsx';
 import HistorySection from '../home_page/section_history.jsx';
 
 
-export default function HomePage() {
+export default function OurBags() {
   // const navigate = useNavigate();
   
   // const goHomePage = () => {
@@ -20,7 +20,7 @@ export default function HomePage() {
   
   return (
     <div>
-      <MissionSection />
+      <OurBagsSection />
       <ProblemeSection />
       <SolutionSection />
       <HistorySection />

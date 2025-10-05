@@ -1,14 +1,14 @@
-import './section_mission.css';
+import './section_our_bags.css';
 
 import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
 
-export default function MissionSection() {
+export default function OurBagsSection() {
   return (
     <div className="mission-section">
       <div className="mission-container">
 
         <div className="mission-text-content">
-          <h1 className="mission-title">NOTRE MISSION</h1>
+          <h1 className="mission-title">NOS SACS</h1>
           <h2 className="mission-subtitle">
             Un sac, deux impacts : <span>écologie & solidarité</span>
           </h2>

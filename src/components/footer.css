@@ -44,7 +44,9 @@ footer {
   gap: 1.5vw;
 }  
 
-.nav_footer button {
+/* /// */
+.btn_footer {
+  text-decoration: none;
   color: #F4EBDC;
   margin-top: 11px;
   font-family: 'Century Gothic';
@@ -59,8 +61,8 @@ footer {
 }
 
 .media_sacadon img {
-  height: auto;
   width: 3vw;
+  height: auto;
 }
 
 /* Fleche pour remonter la page */
@@ -68,10 +70,10 @@ footer {
   position: relative;
   bottom: 10rem;
   right: 10rem;
+  width: 70px;
 }
 
 .scroll-top-btn img {
-  width: 70px;
 }
 
 @media (max-width: 1440px) {
