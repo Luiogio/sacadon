@@ -1,32 +1,47 @@
+import { Link } from "react-router-dom";
 import './section_our_bags.css';
 
 import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
 
 export default function OurBagsSection() {
   return (
-    <div className="mission-section">
-      <div className="mission-container">
+    <div className="our-bags-section">
+      <div className="our-bags-container">
 
-        <div className="mission-text-content">
-          <h1 className="mission-title">NOS SACS</h1>
-          <h2 className="mission-subtitle">
-            Un sac, deux impacts : <span>écologie & solidarité</span>
+        <div className="our-bags-text-content">
+          <h1 className="our-bags-title">NOS SACS</h1>
+          <h2 className="our-bags-subtitle">
+            Un sac qui fait deux fois plus de bien : à la planète et aux humains.
           </h2>
-          <p className="mission-text">
-            <strong>SACADON</strong> est une initiative qui transforme un simple
-            geste d’achat en un acte doublement engagé. En proposant des sacs
-            conçus à partir de plastique recyclé et en reversant une partie des
-            bénéfices à des associations humanitaires, notre mission est de
-            rendre chaque acte du quotidien plus <strong>utile</strong>, plus{" "}
-            <strong>humain</strong>, plus <strong>durable</strong>.
+          <p className="our-bags-text">
+            Découvrez notre collection de sacs <b>éco-conçus</b>, pensés pour <b>durer</b> et <b>agir</b>. 
+            Chaque <b>sac SACADON</b> est fabriqué à partir de <b>plastique recyclé</b> et contribue directement
+             à des <b>actions de solidarité</b> grâce à notre système de dons intégrés. 
+            En achetant un sac, vous participez à une <b>économie circulaire et engagée.</b>
           </p>
+
+          <div className="our-bags-link">
+            <div  className="our-bags-filtre">
+              Filtres
+            </div>
+
+            <div className="our-bags-filtres">
+              <Link href="#our-bags" className="our-bags-button">
+                Sac de transport
+              </Link>
+
+              <Link href="#our-bags" className="our-bags-button">
+                Sac poubelle
+              </Link>
+            </div>
+          </div>
         </div>
 
-        <div className="mission-image-content">
-          <img src={sacNotreMission} alt="Sacadon" className="mission-image" />
-          <a href="#mission" className="mission-button">
-            En savoir plus +
-          </a>
+        <div className="our-bags-image-content">
+          <img src={sacNotreMission} alt="Sacadon" className="our-bags-image" />
+          <Link href="#our-bags" className="our-bags-mode">
+            Le sac du moment
+          </Link>
         </div>
       </div>
     </div>

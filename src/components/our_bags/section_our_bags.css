@@ -1,11 +1,11 @@
-.mission-section {
+.our-bags-section {
   background-color: #F4EBDC; /* beige clair */
   padding: 100px 40px;
   position: relative;
 }
 
-.mission-section::before {
-  content: "01";
+.our-bags-section::before {
+  content: "02";
   font-family: Fredoka;
   position: absolute;
   top: 10px;
@@ -16,7 +16,7 @@
   z-index: 0;
 }
 
-.mission-container {
+.our-bags-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +27,7 @@
 }
 
 /* Texte à gauche */
-.mission-text-content {
+.our-bags-text-content {
   flex: 1;
   position: relative;
   bottom: 9vh;
@@ -36,7 +36,7 @@
   font-family: Fredoka;
 }
 
-.mission-title {
+.our-bags-title {
   font-family: Fredoka;
   font-size: 90px;
   font-weight: 600;
@@ -45,7 +45,7 @@
   margin-bottom: 15px;
 }
 
-.mission-subtitle {
+.our-bags-subtitle {
   font-size: 40px;
   font-weight: 500;
   font-family: 'Cormorant Garamond';
@@ -53,24 +53,49 @@
   margin: 16px 0;
 }
 
-.mission-subtitle span {
+.our-bags-subtitle span {
   font-weight: 500;
 }
 
-.mission-text {
+.our-bags-text {
   font-family: 'Century Gothic';
   font-size: 25px;
   color: #223B45;
   line-height: 1.6;
 }
 
+.our-bags-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 38rem;
+}
+
+.our-bags-filtre {
+  color: #DB214F;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 12px 30px;
+  border: solid 1px #DB214F;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  width: 3vw;
+}
+
+.our-bags-filtres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
 /* Image + bouton à droite */
-.mission-image-content {
+.our-bags-image-content {
   flex: 1;
   text-align: center;
 }
 
-.mission-image {
+.our-bags-image {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
@@ -78,7 +103,7 @@
 }
 
 /* Bouton lien */
-.mission-button {
+.our-bags-button {
   background-color: #DB214F;
   color: white;
   font-weight: 600;
@@ -92,35 +117,55 @@
   margin: auto;
 }
 
-.mission-button:hover {
+.our-bags-button:hover {
   background-color: #a71e2d;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}  
+
+.our-bags-mode {
+  background-color: #DB214F;
+  color: white;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  width: 9vw;
+  font-size: 20px;
+  margin: auto;
 }
+
+.our-bags-mode:hover {
+  background-color: #a71e2d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}  
 
 /* Responsive */
 @media (max-width: 900px) {
-  .mission-container {
+  .our-bags-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .mission-text-content,
-  .mission-image-content {
+  .our-bags-text-content,
+  .our-bags-image-content {
     flex: unset;
   }
 
-  .mission-section::before {
+  .our-bags-section::before {
     font-size: 6rem;
     top: 10px;
     left: 10px;
   }
 
-  .mission-title {
+  .our-bags-title {
     font-size: 2rem;
   }
 
-  .mission-subtitle {
+  .our-bags-subtitle {
     font-size: 1.2rem;
   }
 }
