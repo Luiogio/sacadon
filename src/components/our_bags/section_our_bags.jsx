@@ -27,11 +27,11 @@ export default function OurBagsSection() {
 
             <div className="our-bags-filtres">
               <Link href="#our-bags" className="our-bags-button">
-                Sac de transport
+                <div>Sac de transport</div>
               </Link>
 
               <Link href="#our-bags" className="our-bags-button">
-                Sac poubelle
+                <div>Sac poubelle</div>
               </Link>
             </div>
           </div>

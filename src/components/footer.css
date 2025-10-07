@@ -35,13 +35,13 @@ footer {
 }
 
 .nav_footer {
-  width: 61vw;
+  width: 65vw;
 }
 
 .nav_footer ul {
   display: flex;
   padding: 0;
-  gap: 1.5vw;
+  gap: 20px;
 }  
 
 /* /// */
@@ -53,6 +53,7 @@ footer {
   border-radius: 50px;
   font-size: 18px;
   text-align: center;
+  font-weight: bold;
 }
 
 .media_sacadon {

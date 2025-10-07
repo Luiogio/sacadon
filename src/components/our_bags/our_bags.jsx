@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 // Our Bags Component
 import OurBagsSection from './section_our_bags.jsx';
-import ProblemeSection from '../home_page/section_probleme.jsx';
+import SoftGammeSection from './section_soft_gamme.jsx';
 import SolutionSection from '../home_page/section_solution.jsx';
 import HistorySection from '../home_page/section_history.jsx';
 
@@ -21,7 +21,7 @@ export default function OurBags() {
   return (
     <div>
       <OurBagsSection />
-      <ProblemeSection />
+      <SoftGammeSection />
       <SolutionSection />
       <HistorySection />
     </div>

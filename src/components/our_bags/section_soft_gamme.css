@@ -1,0 +1,149 @@
+.soft-section {
+  min-height: 100vh;
+  background-color: #F4EBDC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Titres */
+.title-soft {
+  width: 92%;
+} 
+
+.title {
+  font-family: 'Fredoka';
+  font-size: 64px;
+  font-weight: 600;
+  color: #2CA397;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 45px;
+  font-family: 'Cormorant Garamond';
+  color: #DB214F;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}  
+
+/* Grille principale */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  /* width: 100%; */
+  align-items: center;
+}  
+
+.soft-image {
+  border-radius: 50px;
+  width: 90%;
+  height: auto;
+  display: block;
+}  
+
+.soft-bag-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 30px;
+  padding: 2.5rem 1rem;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 92%;
+}
+
+.soft-bag-card-title {
+  font-family: 'Fredoka';
+  font-size: 50px;
+  font-weight: 600;
+  color: #2CA397;
+  margin: auto 0px;
+}
+
+.soft-bag-card-text {
+  font-family: 'Century Gothic';
+  font-size: 26px;
+  font-weight: 400;
+  color: #223B45;
+  line-height: 150%;
+  width: 100%;
+}
+
+.soft-bag-card-text2 {
+  font-family: 'Century Gothic';
+  font-size: 27px;
+  font-weight: 600;
+  color: #DB214F;
+  line-height: 150%;
+  width: 100%;
+  margin: 0;
+}
+
+.model-list {
+  width: 88vw;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+}
+
+.model-soft-bag-card {
+  width: 20%;
+  height: auto;
+}
+
+
+.model {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 23rem;
+}
+
+.bag-model {
+  width: 100%;
+  position: relative;
+  top: 2rem;
+}
+
+.bag-button {
+  margin: 33px 50px;
+  width: 16rem;
+}
+
+.bag-button a {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Century Gothic';
+  background-color: #DB214F;
+  color: white;
+  padding: 13px 52px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+.bag-button a:hover {
+  background-color: #cc0052;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}

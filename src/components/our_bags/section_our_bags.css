@@ -30,7 +30,7 @@
 .our-bags-text-content {
   flex: 1;
   position: relative;
-  bottom: 9vh;
+  bottom: 6vh;
   right: 2vw;
   padding-left: 5vw;
   font-family: Fredoka;
@@ -114,6 +114,10 @@
   display: flex;
   width: 8vw;
   font-size: 20px;
+  margin: auto;
+}
+
+.our-bags-button div {
   margin: auto;
 }
 
