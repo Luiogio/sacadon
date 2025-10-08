@@ -1,15 +1,16 @@
 footer {
+  background: #f9ecdc;
+}
+
+.footer {
   background: #223B45;
   width: 100%;
-  /* position: absolute;
-  bottom: 0; */
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   display: flex;
   align-items: center;
   gap: 1vw;
   height: 18vh;
-  /* justify-content: center; */
 }
 
 .logo_footer {
@@ -72,9 +73,13 @@ footer {
   bottom: 10rem;
   right: 10rem;
   width: 70px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 50px;
 }
 
-.scroll-top-btn img {
+.scroll-top-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 1440px) {

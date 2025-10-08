@@ -18,6 +18,7 @@ export default function Footer() {
 
     return (
       <footer>
+        <div className="footer">
           <div className='logo_footer'>
             <img src={logo} alt="Sacadon Logo Footer"/>
             <div>
@@ -52,10 +53,11 @@ export default function Footer() {
             <img src={mail} alt="Sacadon mail"/>
          </div>
         
-        {/* Fleche pour remonter la page */}
-        {/* <button className="scroll-top-btn" onClick={scrollToTop}> */}
-            <img src={arrow} alt="Arrow to top" className="scroll-top-btn" onClick={scrollToTop}/>
-        {/* </button> */}
+          {/* Fleche pour remonter la page */}
+          {/* <button className="scroll-top-btn" onClick={scrollToTop}> */}
+              <img src={arrow} alt="Arrow to top" className="scroll-top-btn" onClick={scrollToTop}/>
+          {/* </button> */}
+        </div>
       </footer>
     );
 }
