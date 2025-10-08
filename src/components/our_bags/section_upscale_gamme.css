@@ -1,34 +1,41 @@
-.caba-bag-card {
+.upscale-image {
+  border-radius: 50px;
+  width: 93%;
+  height: auto;
+  display: block;
+}  
+
+.upscale-bag-card {
   display: flex;
   flex-direction: column;
   background: white;
   border-radius: 30px;
-  padding: 38px 1rem;
+  padding: 22px 1rem;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 92%;
 }
 
-.caba-bag-card-title {
+.upscale-bag-card-title {
   font-family: 'Fredoka';
-  font-size: 45px;
+  font-size: 43px;
   font-weight: 600;
   color: #2CA397;
   margin: auto 0px;
 }
 
-.caba-bag-card-text {
+.upscale-bag-card-text {
   font-family: 'Century Gothic';
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   color: #223B45;
   line-height: 150%;
   width: 100%;
 }
 
-.caba-bag-card-text2 {
+.upscale-bag-card-text2 {
   font-family: 'Century Gothic';
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 600;
   color: #DB214F;
   line-height: 150%;

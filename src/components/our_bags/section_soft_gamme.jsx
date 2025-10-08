@@ -20,7 +20,7 @@ export default function SoftGammeSection() {
 
       {/* Sac Léger */}
       <div className="soft-bag-content">
-        <img src={soft_gamme} alt="Sac gamme légère" className="soft-image" />
+        <img src={soft_gamme} alt="Sac Gamme Légère" className="soft-image" />
 
         <div className="soft-bag-card">
           <p className="soft-bag-card-title">Le P'tit geste</p>

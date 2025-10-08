@@ -1,5 +1,5 @@
 .our-bags-section {
-  background-color: #F4EBDC; /* beige clair */
+  background-color: #F4EBDC;
   padding: 100px 40px 0 40px;
   position: relative;
 }
@@ -26,7 +26,6 @@
   z-index: 1;
 }
 
-/* Texte à droite */
 .our-bags-text-content {
   flex: 1;
   position: relative;
@@ -101,7 +100,6 @@
   margin-bottom: 20px;
 }
 
-/* Bouton lien */
 .our-bags-button {
   background-color: #DB214F;
   color: white;
@@ -146,7 +144,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }  
 
-/* Responsive */
 @media (max-width: 900px) {
   .our-bags-container {
     flex-direction: column;

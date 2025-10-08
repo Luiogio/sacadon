@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-// import "./section_caba_gamme.css";
+import "./section_upscale_gamme.css";
 
-import caba_gamme from "../../assets/our_bags/gamme_caba.png";
+import upscale_gamme from "../../assets/our_bags/gamme_upscale.png";
 import v1 from "../../assets/our_bags/v1.png";
 import v3 from "../../assets/our_bags/v3.png";
 import v5 from "../../assets/our_bags/v5.png";
@@ -12,37 +12,38 @@ export default function UpscaleGammeSection() {
     <div className="soft-section">
 
       <div className="title-soft">
-        <div className="title">GAMME CABA</div>
+        <div className="title">HAUT DE GAMME</div>
         <h2 className="subtitle">
-          Le sac généreux et engagé pour tout emporter
+          L’élégance utile, le geste solidaire
         </h2>
       </div>
 
       {/* Sac Léger */}
       <div className="soft-bag-content">
-          <img src={caba_gamme} alt="Sac gamme légère" className="soft-image" />
+          <img src={upscale_gamme} alt="Sac Haut de Gamme" className="upscale-image" />
 
-        <div className="soft-bag-card">
-          <p className="caba-bag-card-title">Le Généreux</p>
+        <div className="upscale-bag-card">
+          <p className="upscale-bag-card-title">Le Signature</p>
           
-          <p className="caba-bag-card-text">
-            Un sac cabas <b>solide</b>, <b>réutilisable</b> et <b>stylé.</b> <br/>
+          <p className="upscale-bag-card-text">
+            Conçu pour <b>durer</b>, pensé pour vous accompagner avec <b>style</b>, 
+            il associe <b>design sobre, finitions soignées et impact positif.</b><br/>
             Il vous suit au marché, au travail, à la plage… <br/>
-            Fabriqué à partir de <b>plastique recyclé</b>, 
-            il soutient aussi une cause à chaque achat.
+            Fabriqué à partir de plastique recyclé et revalorisé, 
+            il incarne une nouvelle façon de consommer : <b>utile, belle et solidaire.</b>
             <br/>
             <br/>
             <b>Détails techniques :</b>
             <br/>
             <br/>
-            📏 Dimensions : 45 x 40 x 20 cm
+            📏 Dimensions : 50 x 35 x 18 cm
             <br/>
-            ♻️ Matière : plastique recyclé (RPET)
+            🧵 Finitions : Coutures renforcées, intérieur doublé
             <br/>
             🧼 Entretien : lavable en machine à 30°C
           </p>
 
-          <p className="caba-bag-card-text2">
+          <p className="upscale-bag-card-text2">
             💝 Impact solidaire : 1 € reversés à l’association partenaire
           </p>          
        </div>

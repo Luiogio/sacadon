@@ -20,9 +20,9 @@ export default function CabaGammeSection() {
 
       {/* Sac Léger */}
       <div className="soft-bag-content">
-          <img src={caba_gamme} alt="Sac gamme légère" className="soft-image" />
+          <img src={caba_gamme} alt="Sac Gamme Caba" className="soft-image" />
 
-        <div className="soft-bag-card">
+        <div className="caba-bag-card">
           <p className="caba-bag-card-title">Le Généreux</p>
           
           <p className="caba-bag-card-text">
