@@ -8,16 +8,11 @@
   font-family: Arial, sans-serif;
 }
 
-/* Titres */
 .top-section {
   display: flex;
   gap: 17vw;
   justify-content: space-between;
-}
-
-.title-probleme {
-  position: relative;
-  right: 10rem;
+  width: 92%;
 }
 
 .title {
@@ -35,7 +30,6 @@
   font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  /* text-align: center; */
 }  
 
 .intro {
@@ -43,18 +37,18 @@
   font-size: 21px;
   font-weight: 400;
   color: #223B45;
-  width: 20vw;
+  width: 24vw;
   letter-spacing: 1px;
   line-height: 150%;
+  position: relative;
+  right: 6rem;
 }
 
-/* Grille principale */
 .content {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
   max-width: 88vw;
-  /* width: 100%; */
   align-items: center;
 }  
 
@@ -63,11 +57,8 @@
   width: 100%;
   height: auto;
   display: block;
-  /* overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
 }  
 
-/* Zone texte */
 .text-box {
   display: flex;
   flex-direction: column;
@@ -112,7 +103,6 @@
   margin-top: 15px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .content {
     grid-template-columns: 1fr;

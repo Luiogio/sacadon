@@ -1,47 +1,49 @@
 import { Link } from "react-router-dom";
-import "./section_soft_gamme.css";
+import "./section_caba_gamme.css";
 
-import soft_gamme from "../../assets/our_bags/gamme_legere.png";
+import caba_gamme from "../../assets/our_bags/gamme_caba.png";
 import v1 from "../../assets/our_bags/v1.png";
 import v3 from "../../assets/our_bags/v3.png";
 import v5 from "../../assets/our_bags/v5.png";
 import v6 from "../../assets/our_bags/v6.png";
 
-export default function SoftGammeSection() {
+export default function CabaGammeSection() {
   return (
     <div className="soft-section">
 
       <div className="title-soft">
-        <div className="title">GAMME LÉGÈRE</div>
+        <div className="title">GAMME CABA</div>
         <h2 className="subtitle">
-          Simple, pliable, réutilisable : pour les petits trajets du quotidien
+          Le sac généreux et engagé pour tout emporter
         </h2>
       </div>
 
       {/* Sac Léger */}
       <div className="soft-bag-content">
-        <img src={soft_gamme} alt="Sac gamme légère" className="soft-image" />
+          <img src={caba_gamme} alt="Sac gamme légère" className="soft-image" />
 
         <div className="soft-bag-card">
-          <p className="soft-bag-card-title">Le P'tit geste</p>
+          <p className="caba-bag-card-title">Le Généreux</p>
           
-          <p className="soft-bag-card-text">
-            Léger, pliable, réutilisable : <br/>
-            <b> le sac à bretelles réinventé. </b> <br/>
+          <p className="caba-bag-card-text">
+            Un sac cabas <b>solide</b>, <b>réutilisable</b> et <b>stylé.</b> <br/>
+            Il vous suit au marché, au travail, à la plage… <br/>
             Fabriqué à partir de <b>plastique recyclé</b>, 
-            il remplace vos sacs jetables à chaque sortie.
+            il soutient aussi une cause à chaque achat.
             <br/>
             <br/>
             <b>Détails techniques :</b>
             <br/>
             <br/>
-            📏 Dimensions : 30 x 50 cm
+            📏 Dimensions : 45 x 40 x 20 cm
             <br/>
             ♻️ Matière : plastique recyclé (RPET)
+            <br/>
+            🧼 Entretien : lavable en machine à 30°C
           </p>
 
-          <p className="soft-bag-card-text2">
-            💝 Impact solidaire : 0,30 € reversés à l’association partenaire
+          <p className="caba-bag-card-text2">
+            💝 Impact solidaire : 1 € reversés à l’association partenaire
           </p>          
        </div>
       </div>

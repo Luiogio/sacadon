@@ -1,16 +1,13 @@
 .soft-section {
-  min-height: 100vh;
   background-color: #F4EBDC;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 2rem;
-  font-family: Arial, sans-serif;
+  padding: 3rem 6rem;
 }
 
-/* Titres */
 .title-soft {
-  width: 92%;
+  width: 100%;
 } 
 
 .title {
@@ -30,12 +27,10 @@
   margin-bottom: 2rem;
 }  
 
-/* Grille principale */
-.content {
+.soft-bag-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
-  /* width: 100%; */
   align-items: center;
 }  
 
@@ -86,7 +81,7 @@
 
 .model-list {
   width: 88vw;
-  margin-top: 3rem;
+  margin-top: 5rem;
   display: flex;
   flex-direction: row;
   gap: 6rem;

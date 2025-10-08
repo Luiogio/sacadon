@@ -1,6 +1,6 @@
 .our-bags-section {
   background-color: #F4EBDC; /* beige clair */
-  padding: 100px 40px;
+  padding: 100px 40px 0 40px;
   position: relative;
 }
 
@@ -12,7 +12,7 @@
   left: -40px;
   font-size: 200px;
   font-weight: 500;
-  color: rgba(200, 0, 0, 0.1); /* rose clair transparent */
+  color: rgba(200, 0, 0, 0.1);
   z-index: 0;
 }
 
@@ -26,7 +26,7 @@
   z-index: 1;
 }
 
-/* Texte à gauche */
+/* Texte à droite */
 .our-bags-text-content {
   flex: 1;
   position: relative;
@@ -89,7 +89,6 @@
   gap: 1rem;
 }
 
-/* Image + bouton à droite */
 .our-bags-image-content {
   flex: 1;
   text-align: center;

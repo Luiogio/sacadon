@@ -4,8 +4,8 @@ import { useState } from 'react'
 // Our Bags Component
 import OurBagsSection from './section_our_bags.jsx';
 import SoftGammeSection from './section_soft_gamme.jsx';
-import SolutionSection from '../home_page/section_solution.jsx';
-import HistorySection from '../home_page/section_history.jsx';
+import CabaGammeSection from './section_caba_gamme.jsx';
+import UpscaleGammeSection from './section_upscale_gamme.jsx';
 
 
 export default function OurBags() {
@@ -22,8 +22,8 @@ export default function OurBags() {
     <div>
       <OurBagsSection />
       <SoftGammeSection />
-      <SolutionSection />
-      <HistorySection />
+      <CabaGammeSection />
+      <UpscaleGammeSection />
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function ProblemeSection() {
     <div className="probleme-section">
 
       <div className="top-section">
-        <div className='title-probleme'>
+        <div>
           <div className="title">LE PROBLÈME</div>
           <h2 className="subtitle">Trop de plastique, pas assez d’humanité</h2>
         </div>
