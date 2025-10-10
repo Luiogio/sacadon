@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { useState } from 'react'
 
 // Home Page Component
@@ -19,7 +19,7 @@ export default function HomePage() {
   const [showSecond, setShowSecond] = useState(false);
   
   return (
-    <div>
+    <div className='body'>
       <MissionSection />
       <ProblemeSection />
       <SolutionSection />

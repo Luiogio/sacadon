@@ -52,11 +52,6 @@ export default function Header({onShowSecond}) {
                             </Link>
                             <Link className="btn_header">Contact</Link>
                             <Link className="btn_header">Nous rejoindre</Link>
-
-                            {/* <button>Nos sacs</button> */}
-                            {/* <button onClick={clickImpact} ref={impactButton}>Impacts</button> */}
-                            {/* <button>Contact</button> */}
-                            {/* <button>Nous rejoindre</button> */}
                         </ul>
                     </nav>
 

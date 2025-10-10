@@ -13,7 +13,6 @@
   font-size: 200px;
   font-weight: 500;
   color: rgba(200, 0, 0, 0.1);
-  z-index: 0;
 }
 
 .our-bags-container {
@@ -23,7 +22,6 @@
   gap: 40px;
   margin: 0 auto;
   position: relative;
-  z-index: 1;
 }
 
 .our-bags-text-content {

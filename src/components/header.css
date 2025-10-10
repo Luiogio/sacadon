@@ -3,15 +3,14 @@ header {
   background-image:url('../assets/header_footer/background_header.png');
   background-position: center 33%;
   width: 100%;
+  position: relative;
+  z-index: 1000; /* au-dessus du contenu */
 }
 
 .logo_header img {
   height: auto;
   width: 18vw;
   object-fit: contain;
-  /* background-color: transparent; */
-  /* margin: 0; */
-  /* border: 0; */
 }  
 
 .header {

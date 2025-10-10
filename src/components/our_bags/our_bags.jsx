@@ -21,7 +21,7 @@ export default function OurBags() {
   const [showSecond, setShowSecond] = useState(false);
   
   return (
-    <div>
+    <div className='body'>
       <OurBagsSection />
       
       <SoftGammeSection />
