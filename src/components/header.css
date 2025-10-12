@@ -4,13 +4,7 @@ header {
   background-position: center 33%;
   width: 100%;
   position: relative;
-  z-index: 1000; /* au-dessus du contenu */
-}
-
-.logo_header img {
-  height: auto;
-  width: 18vw;
-  object-fit: contain;
+  z-index: 1000;
 }  
 
 .header {
@@ -20,6 +14,24 @@ header {
   height: 19vh;
   position: relative;
   left: 0;
+}    
+
+.logo_header img {
+  height: auto;
+  width: 18vw;
+  object-fit: contain;
+}    
+
+.nav_header {
+  height: 8vh;
+  width: 61vw;
+}  
+
+.nav_header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 2.5vw;
 }  
 
 .btn_header {
@@ -35,93 +47,54 @@ header {
   border: 0;
   border-radius: 50px;
   text-align: center;
+}      
+
+.impact {
+  position: relative;
+  top: 2rem;
+}      
+
+/* Mennu Impact */
+.dropdown-menu {
+  width: 16rem;
+  position: absolute;
+  top: 9rem;
+  left: 53.5rem;
+
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
-/* //// */
-button {
-  background-color: transparent;
-  margin: 0;
-  border: 0;
-}  
-
-.nav_header {
-  height: 8vh;
-  width: 61vw;
+.dropdown-menu.open {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.nav_header ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 1.5vw;
+.dropdown-menu ul {
+  flex-direction: column;
+  gap: 10px
 }  
 
-/* //// */
-.nav_header button {
-  color: #233B45;
-  background-color: #F5EBDB;
-  margin-top: 11px;
+.btn_nav_impact {
+  text-decoration: none;
+  color: #F4EBDC;
+  background-color: #DB214F;
   font-family: Century Gothic;
   border-radius: 50px;
-  font-size: 1.2vw;
+  font-size: 20px;
   font-weight: bold;
-  padding: 2vh 2vw;
+  padding: 2vh 1vw;
   text-align: center;
-}  
+}
+/* Mennu Impact */
 
-/* //// */
 .shopping {
   position: absolute;
   left: 90vw;
   top: 5vh;
   float: right;
   width: 5vw;
-}
-
-.menu {
-  display: none ;
-}
-
-/* CSS Impact menu */
-.nav_impact {
-  width: 22vw;
-  position: absolute;
-  top: 14vh;
-  right: 41vw;
-
-  max-height: 0;
-  transition: max-height 0.5s ease, padding 0.3s ease;
-  overflow: hidden;
-}
-
-.nav_impact.down {
-  width: 22vw;
-  position: absolute;
-  top: 14vh;
-  right: 41vw;
-
-  max-height: 27vh;
-}
-
-.nav_impact ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-
-/* //// */
-.btn_nav_impact {
-  text-decoration: none;
-  color: #233B45;
-  background-color: #F5EBDB;
-  margin-top: 11px;
-  font-family: Century Gothic;
-  border-radius: 50px;
-  font-size: 1.2vw;
-  font-weight: bold;
-  padding: 2vh 2vw;
-  text-align: center;
-}
+}    
 
 @media (max-width: 1440px) {
   .nav_impact, .nav_impact.down {

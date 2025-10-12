@@ -36,12 +36,6 @@ export default function Footer() {
                   <Link className='btn_footer'>Mentions légales</Link>
                   <Link className='btn_footer'>Politiques de confidentialité & cookies</Link>
                   <Link className='btn_footer'>FAQ</Link>
-
-                  {/* <button className='btn_footer'>Conditions générales de ventes</button>
-                  <button className='btn_footer'>Conditions générales d’utilisations</button>
-                  <button className='btn_footer'>Mentions légales</button>
-                  <button className='btn_footer'>Politiques de confidentialité & cookies</button>
-                  <button className='btn_footer'>FAQ</button> */}
               </ul>
           </nav>
 

@@ -75,6 +75,7 @@ footer {
   width: 70px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 50px;
+  z-index: 100;
 }
 
 .scroll-top-btn:hover {

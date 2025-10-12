@@ -42,7 +42,7 @@ export default function SolutionSection() {
         </div>
       </div>
 
-      <div className="solution-button">
+      <div className="need-more-button">
         <button>En savoir plus +</button>
       </div>
     </div>

@@ -70,6 +70,8 @@
 .mission-image-content {
   flex: 1;
   text-align: center;
+  position: relative;
+  bottom: 5rem;
 }
 
 .mission-image {

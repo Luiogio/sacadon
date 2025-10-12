@@ -63,11 +63,11 @@
 }
 
 /* En savoir plus */
-.solution-button {
+.need-more-button {
   margin-top: 40px;
 }
 
-.solution-button button {
+.need-more-button button {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Century Gothic';
@@ -79,7 +79,7 @@
   transition: background 0.3s ease;
 }
 
-.solution-button button:hover {
+.need-more-button button:hover {
   background-color: #cc0052;
 }
 
