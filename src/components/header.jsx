@@ -24,7 +24,7 @@ export default function Header({onShowSecond}) {
                         onMouseEnter={() => setOpen(true)}
                         onMouseLeave={() => setOpen(false)}
                       >
-                        <Link className="btn_header impact">Impacts</Link>
+                        <Link to="/impacts" className="btn_header impact">Impacts</Link>
                         <nav className={`dropdown-menu ${open ? "open" : ""}`}>
                             <ul>
                                 <Link className="btn_nav_impact">Ecologique</Link>

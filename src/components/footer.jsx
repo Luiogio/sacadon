@@ -5,6 +5,7 @@ import logo from '../assets/header_footer/logo_footer.png';
 import linkedin from '../assets/header_footer/linkedin.png';
 import insta from '../assets/header_footer/instagram.png';
 import mail from '../assets/header_footer/mail.png';
+
 import arrow from '../assets/header_footer/arrow_to_top.png';
 
 export default function Footer() {
@@ -47,10 +48,7 @@ export default function Footer() {
             <img src={mail} alt="Sacadon mail"/>
          </div>
         
-          {/* Fleche pour remonter la page */}
-          {/* <button className="scroll-top-btn" onClick={scrollToTop}> */}
-              <img src={arrow} alt="Arrow to top" className="scroll-top-btn" onClick={scrollToTop}/>
-          {/* </button> */}
+          <img src={arrow} alt="Arrow to top" className="scroll-top-btn" onClick={scrollToTop}/>
         </div>
       </footer>
     );

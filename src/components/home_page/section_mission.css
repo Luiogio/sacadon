@@ -81,18 +81,17 @@
   margin-bottom: 20px;
 }
 
-/* Bouton lien */
 .mission-button {
   background-color: #DB214F;
   color: white;
   font-weight: 600;
+  font-size: 20px;
   padding: 12px 30px;
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
   display: flex;
   width: 8vw;
-  font-size: 20px;
   margin: auto;
 }
 
