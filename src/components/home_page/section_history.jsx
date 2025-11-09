@@ -1,5 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import './section_history.css';
+
 import history_picture from '../../assets/home_page/history_picture.png';
 import logo_S from '../../assets/home_page/logo_S.png';
 
@@ -9,15 +11,12 @@ export default function HistorySection() {
       <div className="history-container">
 
         <div className="history-image">
-          <img src={history_picture} alt="Notre histoire" />
-
-          <div className="history-logo">
-            <img src={logo_S} alt="Logo S" />
-          </div>
+          <img src={history_picture} alt="Notre histoire"  className="image"/>
+          <img src={logo_S} alt="Logo S"  className="history-logo"/>
           
-          <div className="history-button">
-            <button>En savoir plus +</button>
-          </div>
+          <Link to="/histoire" className="need-more-button">
+            En savoir plus +
+          </Link>
         </div>
 
         <div className="history-content">

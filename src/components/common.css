@@ -1,0 +1,21 @@
+.need-more-button {
+  background-color: #DB214F;
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+  padding: 12px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  width: 180px;
+  margin: 15px auto 0 auto;
+  text-align: center;
+  z-index: 1111;
+}
+
+.need-more-button:hover {
+  background-color: #a71e2d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}

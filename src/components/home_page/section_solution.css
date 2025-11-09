@@ -19,7 +19,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   width: 64vw;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 /* Carte */
@@ -61,25 +61,3 @@
   margin-top: 10px;
   line-height: 150%;
 }
-
-/* En savoir plus */
-.need-more-button {
-  margin-top: 40px;
-}
-
-.need-more-button button {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Century Gothic';
-  background-color: #DB214F;
-  color: white;
-  padding: 13px 52px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.need-more-button button:hover {
-  background-color: #cc0052;
-}
-

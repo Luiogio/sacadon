@@ -14,15 +14,14 @@
   margin: 0 auto;
 }
 
-/* Image + bouton */
 .history-image {
   position: relative;
   flex: 1;
 }
 
-.history-image img {
+.history-image .image {
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .history-button {
@@ -53,11 +52,12 @@
   text-align: right;
 }
 
-/* Logo S en haut */
-.history-logo img {
+.history-logo {
+  width: 35%;
   position: absolute;
-  bottom: 110px;
-  left: 14vw;
+  bottom: 20rem;
+  left: 25vw;
+  z-index: 1;
 }
 
 .history-title {
@@ -66,7 +66,7 @@
   font-weight: 600;
   color: #2CA397;
   margin-bottom: 15px;
-  margin-left: 50px; /* pour laisser la place au logo */
+  margin-left: 50px;
 }
 
 .history-subtitle {
@@ -88,7 +88,6 @@
 
 .history-text a{
   color: #223B45;
-  /* text-decoration: none; */
 }
 
 .history-text a:hover{

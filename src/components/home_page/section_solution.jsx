@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import './section_solution.css';
 
 import design from '../../assets/home_page/our_solution/design_responsable.png';
@@ -42,9 +44,9 @@ export default function SolutionSection() {
         </div>
       </div>
 
-      <div className="need-more-button">
-        <button>En savoir plus +</button>
-      </div>
+      <Link to="/solution" className="need-more-button">
+        En savoir plus +
+      </Link>
     </div>
   );
 }

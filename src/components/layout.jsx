@@ -4,6 +4,7 @@ import Header from './header.jsx';
 import MenuResponsive from './home_page/menu_responsive.jsx';
 import Footer from './footer.jsx';
 
+import './common.css';
 
 export default function Layout() {
   

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-import './section_mission.css';
+import './section_our_solution.css';
 
 import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
 
-export default function MissionSection() {
+export default function OurSolutionSection() {
   return (
     <div className="mission-section">
       <div className="mission-container">
