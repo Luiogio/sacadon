@@ -2,34 +2,38 @@ import { Link } from "react-router-dom";
 
 import './section_our_solution.css';
 
-import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
+import cycle from '../../assets/our_solution/cycle-de-vie.png';
 
 export default function OurSolutionSection() {
   return (
-    <div className="mission-section">
-      <div className="mission-container">
+    <div className="our-solution-section">
+      <div className="titre">NOTRE SOLUTION</div>
 
-        <div className="mission-text-content">
-          <h1 className="mission-title">NOTRE MISSION</h1>
-          <h2 className="mission-subtitle">
-            Un sac, deux impacts : écologie & solidarité
-          </h2>
-          <p className="mission-text">
-            <b>SACADON</b> est une initiative qui transforme un simple
-            geste d’achat en un acte doublement engagé. En proposant des sacs
-            conçus à partir de plastique recyclé et en reversant une partie des
-            bénéfices à des associations humanitaires, notre mission est de
-            rendre chaque acte du quotidien plus <b>utile</b>, plus{" "}
-            <b>humain</b>, plus <b>durable</b>.
-          </p>
-        </div>
+      <h3 className="soustitre">
+        Notre solution : une réponse simple à des enjeux complexes
+      </h3>
 
-        <div className="mission-image-content">
-          <img src={sacNotreMission} alt="Sacadon" className="mission-image" />
-          <Link to="/nos-sacs" className="need-more-button">
-            En savoir plus +
-          </Link>
-        </div>
+      {/* Texte explicatif */}
+      <div className="texte-section">
+        <p>
+          <strong>SACADON</strong> n’est pas une collection de sacs comme les
+          autres. C’est une solution concrète à deux urgences :{" "}
+          <strong>la pollution plastique</strong> &{" "}
+          <strong>les inégalités humaines</strong>.
+        </p>
+        <p>
+          Comment ? En créant un objet{" "}
+          <strong>réutilisable, recyclé, solidaire</strong>, et en intégrant{" "}
+          <strong>un don</strong> dans son prix de vente.
+        </p>
+        <p>
+          On appelle ça : <strong>un produit-partage.</strong>
+        </p>
+      </div>
+
+      {/* Image du cycle de vie */}
+      <div className="image-container">
+        <img src={cycle} alt="Cycle de vie" className="image-cycle" />
       </div>
     </div>
   );

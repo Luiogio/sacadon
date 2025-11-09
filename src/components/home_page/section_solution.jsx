@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 import './section_solution.css';
 
-import design from '../../assets/home_page/our_solution/design_responsable.png';
-import ethique from '../../assets/home_page/our_solution/label_ethique.png';
-import impact_solidaire from '../../assets/home_page/our_solution/impact_solidaire.png';
+import design from '../../assets/home_page/solution/design_responsable.png';
+import ethique from '../../assets/home_page/solution/label_ethique.png';
+import impact_solidaire from '../../assets/home_page/solution/impact_solidaire.png';
 
 export default function SolutionSection() {
   return (
