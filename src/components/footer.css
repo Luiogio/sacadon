@@ -70,7 +70,7 @@ footer {
 /* Fleche pour remonter la page */
 .scroll-top-btn {
   position: relative;
-  bottom: 12rem;
+  bottom: 10rem;
   right: 11rem;
   width: 70px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;

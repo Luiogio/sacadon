@@ -12,7 +12,6 @@
   text-decoration: none;
   transition: all 0.3s ease;
   display: flex;
-  width: 180px;
   margin: 15px auto 0 auto;
   justify-content: center;
   z-index: 1111;
@@ -27,11 +26,14 @@
 .title-sac {
   color: #2CA397;
   font-family: Fredoka;
+  font-size: 64px;
+  font-weight: 700;
 }
 
 .text-sac {
   color: #DB214F;
   font-family: 'Cormorant Garamond';
+  font-size: 40px;
 }
 
 .text-sac2 {
