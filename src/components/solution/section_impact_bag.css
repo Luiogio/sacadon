@@ -4,18 +4,14 @@
 }
 
 .impact-titre {
-  color: #2CA397;
   font-size: 70px;
   font-weight: 700;
-  font-family: Fredoka;
   margin-bottom: 16px;
 }
 
 .impact-soustitre {
-  color: #DB214F;
   width: 55vw;
   font-size: 36px;
-  font-family: 'Cormorant Garamond';
   margin: 30px auto;
   line-height: 150%;
 }
@@ -28,7 +24,7 @@
   margin: 55px 0;
 }
 
-.carte {
+.card-avantages {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);

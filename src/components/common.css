@@ -14,7 +14,7 @@
   display: flex;
   width: 180px;
   margin: 15px auto 0 auto;
-  text-align: center;
+  justify-content: center;
   z-index: 1111;
 }
 
@@ -22,4 +22,24 @@
   background-color: #a71e2d;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.title-sac {
+  color: #2CA397;
+  font-family: Fredoka;
+}
+
+.text-sac {
+  color: #DB214F;
+  font-family: 'Cormorant Garamond';
+}
+
+.text-sac2 {
+  color: #223B45;
+  font-family: 'Century Gothic';
+}
+
+.card-sac2 {
+  color: #223B45;
+  font-family: 'Century Gothic';
 }
