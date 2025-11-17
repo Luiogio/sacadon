@@ -1,4 +1,4 @@
-.our-solution-section {
+.our-history-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,8 +6,8 @@
   text-align: center;
 }
 
-.titre-solution {
-  width: 55vw;
+.titre-history {
+  width: 52vw;
   font-size: 100px;
   font-weight: 700;
   font-family: Fredoka;
@@ -15,8 +15,8 @@
   position: relative;
 }
 
-.titre-solution::before {
-  content: "NOTRE SOLUTION";
+.titre-history::before {
+  content: "NOTRE HISTOIRE";
   font-family: Fredoka;
   position: absolute;
   bottom: 25px;
@@ -44,7 +44,7 @@
   margin: 16px 0 60px 0;
 }
 
-.our-solution-section img {
+.our-history-section img {
   width: 30%;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
