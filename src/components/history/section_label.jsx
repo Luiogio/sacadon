@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import label from '../../assets/our_solution/label_project.png';
+import origine from '../../assets/our_history/origine_engagée.png';
 
 import './section_label.css';
 
@@ -11,7 +11,7 @@ export default function Label() {
       <h2 className="label-titre title-sac">Un modèle duplicable et labelisable</h2>
       <div className="label-subsection">
 
-        <img src={label} alt="Cycle de vie"/>
+        <img src={origine} alt="Origine Engagée"/>
 
         <div className="label-contenu">
           <div className="text-sac">SACADON, c’est aussi bientôt un label</div>
