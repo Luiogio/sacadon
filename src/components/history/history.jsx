@@ -1,6 +1,6 @@
 import OurHistory from './section_our_history.jsx';
 import Origine from './section_origine.jsx';
-import Humanite from './section_humanite.jsx';
+import Birth from './section_birth.jsx';
 import Label from './section_label.jsx';
 
 export default function History() {
@@ -8,7 +8,7 @@ export default function History() {
     <div className='body'>
       <OurHistory />
       <Origine />
-      <Humanite />
+      <Birth />
       <Label />
     </div>
   );

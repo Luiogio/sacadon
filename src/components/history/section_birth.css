@@ -1,0 +1,22 @@
+.origine-text-card {
+  padding: 35px 60px;
+}
+
+.origine-paragraph li {
+  margin-left: 35px;
+}
+
+@media (max-width: 1000px) {
+  .origine-container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .origine-text-card {
+    max-width: 90%;
+  }
+
+  .origine-title {
+    font-size: 36px;
+  }
+}
