@@ -5,7 +5,7 @@ import origine from '../../assets/our_history/origine_engagée.png';
 export default function Origine() {
   return (
     <div className="origine-container">
-        <img src={origine} alt="O rigine Engagée" className="origine-image" />
+      <img src={origine} alt="Origine Engagée" className="origine-image" />
 
       <div className="origine-text-card">
         <div className="origine-title title-sac">Une origine engagée</div>

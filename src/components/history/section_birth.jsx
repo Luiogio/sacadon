@@ -5,7 +5,7 @@ import birth from '../../assets/our_history/birth.png';
 export default function Birth() {
   return (
     <div className="origine-container">
-      <div className="origine-text-card">
+      <div className="origine-text-card birth-card">
         <div className="origine-title title-sac">La naissance du “produit partage”</div>
 
         <p className="origine-paragraph text-sac2">
