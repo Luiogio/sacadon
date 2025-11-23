@@ -10,11 +10,11 @@ export default function MissionSection() {
       <div className="mission-container">
 
         <div className="mission-text-content">
-          <h1 className="mission-title">NOTRE MISSION</h1>
-          <h2 className="mission-subtitle">
+          <div className="sacadon-title">NOTRE MISSION</div>
+          <div className="sacadon-text">
             Un sac, deux impacts : écologie & solidarité
-          </h2>
-          <p className="mission-text">
+          </div>
+          <p className="sacadon-text2">
             <b>SACADON</b> est une initiative qui transforme un simple
             geste d’achat en un acte doublement engagé. En proposant des sacs
             conçus à partir de plastique recyclé et en reversant une partie des

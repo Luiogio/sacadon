@@ -8,13 +8,13 @@ export default function Label() {
   return (
     <div className="label-section">
       
-      <h2 className="label-titre title-sac">Un modèle duplicable et labelisable</h2>
+      <h2 className="label-titre sacadon-title2">Un modèle duplicable et labelisable</h2>
       <div className="label-subsection">
 
         <img src={label} alt="Cycle de vie"/>
 
         <div className="label-contenu">
-          <div className="text-sac">SACADON, c’est aussi bientôt un label</div>
+          <div className="sacadon-text">SACADON, c’est aussi bientôt un label</div>
 
           <p className="label-texte">
             Toute entreprise ou marque qui respecte nos <b>critères</b>

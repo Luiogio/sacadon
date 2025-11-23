@@ -1,5 +1,4 @@
 .impacts-section {
-  background-color: #F4EBDC;
   padding: 100px 40px 0 40px;
   position: relative;
 }
@@ -26,12 +25,10 @@
 }
 
 .impacts-text-content {
-  flex: 1;
   position: relative;
   bottom: 6vh;
   right: 2vw;
   padding-left: 5vw;
-  font-family: Fredoka;
 }
 
 .impacts-filtres {
@@ -39,19 +36,6 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
-}
-
-.impacts-button {
-  background-color: #DB214F;
-  color: white;
-  font-weight: 600;
-  font-size: 25px;
-  padding: 12px 30px;
-  border-radius: 15px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  display: flex;
-  margin: auto;
 }
 
 .impacts-button:hover {

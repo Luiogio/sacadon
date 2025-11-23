@@ -9,11 +9,11 @@ export default function Impacts() {
       <div className="impacts-container">
 
         <div className="impacts-text-content">
-          <h1 className="mission-title">IMPACTS</h1>
-          <h2 className="mission-subtitle">
+          <div className="sacadon-title">IMPACTS</div>
+          <div className="sacadon-text">
             Agir pour la planète, et pour les humains.
-          </h2>
-          <p className="mission-text">
+          </div>
+          <p className="sacadon-text2">
             Derrière chaque <b>sac SACADON</b>, il y a bien plus qu’un objet du quotidien.<br/>
             Il y a une <b>action concrète</b>, <b>mesurable</b> et <b>durable</b>, à la fois <b>écologique, 
             solidaire et éducative.</b><br/>
@@ -21,16 +21,14 @@ export default function Impacts() {
           </p>
 
           <div className="impacts-filtres">
-              <Link  className="impacts-button">
-                Impact écologique
+              <Link to="/impact-ecologique" className="need-more-button">
+                Impact Ecologique
               </Link>
-
-              <Link className="impacts-button">
-                Impact humanitaire
+              <Link to="/impact-humanitaire" className="need-more-button">
+                Impact Humanitaire
               </Link>
-
-              <Link className="impacts-button">
-                Information & pédagogie
+              <Link to="/information-pedagogie" className="need-more-button">
+                Information & Pédagogie
               </Link>
           </div>
         </div>

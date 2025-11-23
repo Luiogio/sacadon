@@ -27,17 +27,3 @@
 .end-btn {
   padding: 12px 50px;
 }
-
-@media (max-width: 850px) {
-  .agir-title {
-    end-size: 36px;
-  }
-
-  .agir-subtitle {
-    end-size: 20px;
-  }
-
-  .agir-quote {
-    end-size: 22px;
-  }
-}

@@ -1,0 +1,53 @@
+.plastique-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+  background: #f6eadc;
+}
+
+.plastique-images {
+  position: relative;
+}
+
+.image-large {
+  width: 700px;
+  height: auto;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.image-small {
+  width: 340px;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+}
+
+/* ------ TEXT CARD ------ */
+
+.plastique-text-card {
+  background: white;
+  padding: 40px 45px;
+  width: 380px;
+  border-radius: 40px;
+}
+
+.plastique-text-card h2 {
+  color: #00a19a;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.plastique-text-card p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}

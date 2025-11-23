@@ -5,14 +5,14 @@ import './section_end_history.css';
 export default function End() {
   return (
     <div className="end-container">
-      <p className="end-quote text-sac">
+      <p className="end-quote sacadon-text">
         « Le SACADON est un symbole. Il prouve qu’un objet du quotidien<br/>
         peut devenir un levier de changement. »<br/>
         — Vital Bottura, Fondateur
       </p>
 
-      <div className="end-title title-sac">Envie d’agir avec nous ?</div>
-      <p className="end-subtitle text-sac">
+      <div className="end-title sacadon-title2">Envie d’agir avec nous ?</div>
+      <p className="end-subtitle sacadon-text">
         Découvrez notre solution ou rejoignez l’aventure !
       </p>
 

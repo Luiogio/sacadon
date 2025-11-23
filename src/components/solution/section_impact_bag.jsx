@@ -7,7 +7,7 @@ export default function ImpactBag() {
     <div className="impact-section">
       <div className="impact-titre title">Un sac à impact écologique</div>
 
-      <p className="impact-soustitre text-sac">
+      <p className="impact-soustitre sacadon-text">
         Nos sacs sont fabriqués à partir de plastique PE recyclé, issu du tri
         sélectif des ménages.
       </p>

@@ -7,8 +7,8 @@ import Layout from "./components/layout";
 import HomePage from "./components/home_page/home_page";
 import Solution from "./components/solution/solution";
 import History from "./components/history/history";
-
 import Impact from "./components/impact/impact";
+import ImpactEcological from "./components/impact_ecological/impact_ecological";
 import OurBags from "./components/our_bags/our_bags";
 
 export default function App() {
@@ -33,6 +33,7 @@ export default function App() {
           <Route path="/histoire" element={<History />} />
           
           <Route path="/impacts" element={<Impact />} />
+          <Route path="/impact-ecologique" element={<ImpactEcological />} />
           
           <Route path="/nos-sacs" element={<OurBags />} />
         </Route>

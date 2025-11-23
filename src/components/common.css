@@ -23,20 +23,31 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.title-sac {
+.sacadon-title {
+  color: #223B45;
+  font-family: Fredoka;
+  font-size: 90px;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.sacadon-title2 {
   color: #2CA397;
   font-family: Fredoka;
   font-size: 64px;
   font-weight: 700;
 }
 
-.text-sac {
+.sacadon-text {
   color: #DB214F;
   font-family: 'Cormorant Garamond';
   font-size: 40px;
 }
 
-.text-sac2 {
+.sacadon-text2 {
   color: #223B45;
   font-family: 'Century Gothic';
+  font-size: 25px;
+  line-height: 1.6;
 }

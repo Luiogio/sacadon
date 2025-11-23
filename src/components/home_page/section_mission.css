@@ -38,15 +38,6 @@
   font-family: Fredoka;
 }
 
-.mission-title {
-  font-family: Fredoka;
-  font-size: 90px;
-  font-weight: 600;
-  color: #223B45;
-  margin-top: 40px;
-  margin-bottom: 15px;
-}
-
 .mission-subtitle {
   font-size: 40px;
   font-weight: 500;
@@ -98,7 +89,7 @@
     left: 10px;
   }
 
-  .mission-title {
+  .sacadon-title {
     font-size: 2rem;
   }
 
