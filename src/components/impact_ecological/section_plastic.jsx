@@ -1,45 +1,30 @@
 import "./section_plastic.css";
 
-import sacImpact from "../../assets/our_bags/v6.png";
+import plastic from "../../assets/impact_ecological/plastic.png";
+import loupe from "../../assets/impact_ecological/loupe.png";
 
 export default function SectionPlastic() {
   return (
-    <section className="plastique-section">
-      <div className="plastique-images">
-        <img
-          src="/images/plastique1.png"
-          alt="Pollution plastique"
-          className="image-large"
-        />
-        <img
-          src="/images/plastique2.png"
-          alt="Microplastiques"
-          className="image-small"
-        />
+    <div className="plastic-section">
+      <div className="plastic-images">
+        <img src={plastic} alt="Pollution plastique" className="image-large"/>
+        <img src={loupe} alt="Microplastiques" className="image-small"/>
       </div>
 
-      <div className="plastique-text-card">
-        <h2>PLASTIQUE</h2>
-
-        <p>Le plastique a une densité inférieure à 1. Il flotte.</p>
-
-        <p>
+      <div className="plastic-card">
+        <div className="sacadon-title2">PLASTIQUE</div>
+        <p className="sacadon-text2">
+          Le plastique a une densité inférieure à 1. Il flotte.<br/>
           Il est donc facilement emporté par les eaux de ruissellement jusqu’aux
-          rivières, aux fleuves, puis à la mer.
-        </p>
-
-        <p>
-          <strong>Résultat :</strong> de véritables continents de plastique se
-          sont formés.
-        </p>
-
-        <p>
-          <strong>+ Et ce n’est pas tout :</strong> ils se fragmentent en
+          rivières, aux fleuves, puis à la mer.<br/>
+          <b>Résultat :</b> de véritables continents de plastique se
+          sont formés.<br/>
+          <b>+ Et ce n’est pas tout :</b> ils se fragmentent en
           micro-plastiques, invisibles mais présents dans notre chaîne
           alimentaire.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 
