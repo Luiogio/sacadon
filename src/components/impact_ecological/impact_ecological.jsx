@@ -1,6 +1,7 @@
 import SectionEcological from './section_ecological.jsx';
 import SectionPlastic from './section_plastic.jsx';
 import SectionResponse from './section_response.jsx';
+import SectionResponseBis from './section_response_bis.jsx';
 
 export default function ImpactEcological() {
   return (
@@ -8,6 +9,7 @@ export default function ImpactEcological() {
       <SectionEcological />
       <SectionPlastic />
       <SectionResponse />
+      <SectionResponseBis />
     </div>
   );
 }
