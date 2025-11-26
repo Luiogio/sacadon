@@ -26,17 +26,17 @@ export default function SoftGammeSection() {
           <p className="soft-bag-card-title">Le P'tit geste</p>
           
           <p className="soft-bag-card-text">
-            Léger, pliable, réutilisable : <br/>
-            <b> le sac à bretelles réinventé. </b> <br/>
+            Léger, pliable, réutilisable : <br />
+            <b> le sac à bretelles réinventé. </b> <br />
             Fabriqué à partir de <b>plastique recyclé</b>, 
             il remplace vos sacs jetables à chaque sortie.
-            <br/>
-            <br/>
+            <br />
+            <br />
             <b>Détails techniques :</b>
-            <br/>
-            <br/>
+            <br />
+            <br />
             📏 Dimensions : 30 x 50 cm
-            <br/>
+            <br />
             ♻️ Matière : plastique recyclé (RPET)
           </p>
 

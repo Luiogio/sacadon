@@ -13,8 +13,8 @@ export default function SectionEcological() {
             ♻️ Réduire, recycler, revaloriser : notre réponse écologique
           </div>
           <p className="mission-text">
-            L’un des plus grands défis de notre époque : <b>la pollution plastique.</b><br/>
-            Chez SACADON, chaque sac est pensé pour être une <b>alternative utile</b> et <b>durable</b><br/>
+            L’un des plus grands défis de notre époque : <b>la pollution plastique.</b><br />
+            Chez SACADON, chaque sac est pensé pour être une <b>alternative utile</b> et <b>durable</b><br />
             à la production massive de plastique à usage unique.
           </p>
         </div>

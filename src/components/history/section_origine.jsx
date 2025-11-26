@@ -15,7 +15,7 @@ export default function Origine() {
         </p>
 
         <p className="origine-paragraph sacadon-text2">
-          Le SACADON n’existe pas encore, mais l’enjeu est là : <br/>
+          Le SACADON n’existe pas encore, mais l’enjeu est là : <br />
           <b>trop de plastique, trop de gaspillage, trop peu de sens.</b>
         </p>
 

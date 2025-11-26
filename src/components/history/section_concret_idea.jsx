@@ -17,7 +17,7 @@ export default function Concret() {
 
         <p className="origine-paragraph sacadon-text2">
           Aujourd’hui, c’est un projet porté par une association indépendante, 
-          une vision collective, et une volonté simple : <br/>
+          une vision collective, et une volonté simple : <br />
           <b>Agir pour l’environnement et pour l’humanité, en un seul geste.</b>
         </p>
       </div>

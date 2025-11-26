@@ -10,12 +10,12 @@ export default function OurHistory() {
       </div>
 
       <p className="texte-section">
-        SACADON, c’est d’abord une histoire de conviction.<br/>
-        En 1993, alors que les sacs plastiques gratuits inondaient la grande distribution, l’idée est née :<br/>
-        <b>Et si un simple sac pouvait changer les choses ?</b><br/>
-        Après le succès du SAC À SAPIN au profit de Handicap International, une autre idée germe :<br/>
-        <b>créer un “produit partage” alliant utilité, recyclage et solidarité.</b><br/>
-        Il faudra 20 ans pour que cette intuition devienne un projet : SACADON.<br/>
+        SACADON, c’est d’abord une histoire de conviction.<br />
+        En 1993, alors que les sacs plastiques gratuits inondaient la grande distribution, l’idée est née :<br />
+        <b>Et si un simple sac pouvait changer les choses ?</b><br />
+        Après le succès du SAC À SAPIN au profit de Handicap International, une autre idée germe :<br />
+        <b>créer un “produit partage” alliant utilité, recyclage et solidarité.</b><br />
+        Il faudra 20 ans pour que cette intuition devienne un projet : SACADON.<br />
       </p>
     </div>
   );

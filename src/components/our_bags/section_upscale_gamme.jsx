@@ -27,19 +27,19 @@ export default function UpscaleGammeSection() {
           
           <p className="upscale-bag-card-text">
             Conçu pour <b>durer</b>, pensé pour vous accompagner avec <b>style</b>, 
-            il associe <b>design sobre, finitions soignées et impact positif.</b><br/>
-            Il vous suit au marché, au travail, à la plage… <br/>
+            il associe <b>design sobre, finitions soignées et impact positif.</b><br />
+            Il vous suit au marché, au travail, à la plage… <br />
             Fabriqué à partir de plastique recyclé et revalorisé, 
             il incarne une nouvelle façon de consommer : <b>utile, belle et solidaire.</b>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <b>Détails techniques :</b>
-            <br/>
-            <br/>
+            <br />
+            <br />
             📏 Dimensions : 50 x 35 x 18 cm
-            <br/>
+            <br />
             🧵 Finitions : Coutures renforcées, intérieur doublé
-            <br/>
+            <br />
             🧼 Entretien : lavable en machine à 30°C
           </p>
 

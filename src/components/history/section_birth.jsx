@@ -15,7 +15,7 @@ export default function Birth() {
         </p>
 
         <p className="origine-paragraph sacadon-text2">
-          Cette idée devient la pierre fondatrice du projet SACADON :<br/>
+          Cette idée devient la pierre fondatrice du projet SACADON :<br />
           <b>Faire de chaque achat un geste engagé. Un produit à double impact.</b>
         </p>
       </div>

@@ -32,7 +32,7 @@ export default function HistorySection() {
             (fondateur du <a href='https://www.handicap-international.fr/fr/actualites/sac-a-sapin' target="_blank">Sac à Sapin</a>),
             d’une volonté <b>familiale et intergénérationnelle</b> de répondre à deux urgences : la
             <b> pollution plastique</b> et la <b>solidarité</b>.
-            <br/>
+            <br />
             Le projet est porté par des jeunes créatifs et militants, pour redonner du sens à la consommation.
           </div>
         </div>

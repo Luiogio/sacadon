@@ -26,19 +26,19 @@ export default function CabaGammeSection() {
           <p className="caba-bag-card-title">Le Généreux</p>
           
           <p className="caba-bag-card-text">
-            Un sac cabas <b>solide</b>, <b>réutilisable</b> et <b>stylé.</b> <br/>
-            Il vous suit au marché, au travail, à la plage… <br/>
+            Un sac cabas <b>solide</b>, <b>réutilisable</b> et <b>stylé.</b> <br />
+            Il vous suit au marché, au travail, à la plage… <br />
             Fabriqué à partir de <b>plastique recyclé</b>, 
             il soutient aussi une cause à chaque achat.
-            <br/>
-            <br/>
+            <br />
+            <br />
             <b>Détails techniques :</b>
-            <br/>
-            <br/>
+            <br />
+            <br />
             📏 Dimensions : 45 x 40 x 20 cm
-            <br/>
+            <br />
             ♻️ Matière : plastique recyclé (RPET)
-            <br/>
+            <br />
             🧼 Entretien : lavable en machine à 30°C
           </p>
 

@@ -6,8 +6,8 @@ export default function End() {
   return (
     <div className="end-container">
       <p className="end-quote sacadon-text">
-        « Le SACADON est un symbole. Il prouve qu’un objet du quotidien<br/>
-        peut devenir un levier de changement. »<br/>
+        « Le SACADON est un symbole. Il prouve qu’un objet du quotidien<br />
+        peut devenir un levier de changement. »<br />
         — Vital Bottura, Fondateur
       </p>
 

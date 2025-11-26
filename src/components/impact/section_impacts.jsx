@@ -14,9 +14,9 @@ export default function Impacts() {
             Agir pour la planète, et pour les humains.
           </div>
           <p className="sacadon-text2">
-            Derrière chaque <b>sac SACADON</b>, il y a bien plus qu’un objet du quotidien.<br/>
+            Derrière chaque <b>sac SACADON</b>, il y a bien plus qu’un objet du quotidien.<br />
             Il y a une <b>action concrète</b>, <b>mesurable</b> et <b>durable</b>, à la fois <b>écologique, 
-            solidaire et éducative.</b><br/>
+            solidaire et éducative.</b><br />
             Nous avons conçu ce projet pour qu’un geste simple ait un effet puissant.
           </p>
 

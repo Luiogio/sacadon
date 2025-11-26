@@ -12,9 +12,9 @@ export default function OurSolution() {
       </div>
 
       <p className="texte-section">
-        SACADON n’est pas une collection de sacs comme les autres.<br/>
-        C’est une solution concrète à deux urgences : La <b>pollution plastique</b> & les <b>inégalités humaines</b>.<br/>
-        Comment ? En créant un objet <b>réutilisable, recyclé, solidaire</b>, et en intégrant <b>un don</b> dans son prix de vente.<br/>
+        SACADON n’est pas une collection de sacs comme les autres.<br />
+        C’est une solution concrète à deux urgences : La <b>pollution plastique</b> & les <b>inégalités humaines</b>.<br />
+        Comment ? En créant un objet <b>réutilisable, recyclé, solidaire</b>, et en intégrant <b>un don</b> dans son prix de vente.<br />
         On appelle ça : <b>un produit-partage.</b>
       </p>
 

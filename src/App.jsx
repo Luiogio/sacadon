@@ -9,6 +9,7 @@ import Solution from "./components/solution/solution";
 import History from "./components/history/history";
 import Impact from "./components/impact/impact";
 import ImpactEcological from "./components/impact_ecological/impact_ecological";
+import ImpactHuman from "./components/impact_human/impact_human";
 import OurBags from "./components/our_bags/our_bags";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
           
           <Route path="/impacts" element={<Impact />} />
           <Route path="/impact-ecologique" element={<ImpactEcological />} />
+          <Route path="/impact-humanitaire" element={<ImpactHuman />} />
           
           <Route path="/nos-sacs" element={<OurBags />} />
         </Route>
