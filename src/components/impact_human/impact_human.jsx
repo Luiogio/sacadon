@@ -1,17 +1,13 @@
 import SectionHuman from './section_human.jsx';
-import SectionPlastic from './section_plastic.jsx';
-import SectionResponse from './section_response.jsx';
-import SectionResponseBis from './section_response_bis.jsx';
-import SectionSymbole from './section_symbole.jsx';
+import SectionDon from './section_don.jsx';
+import SectionPartners from './section_partners.jsx';
 
 export default function ImpactHuman() {
   return (
     <div className='body'>
       <SectionHuman />
-      <SectionPlastic />
-      <SectionResponse />
-      <SectionResponseBis />
-      <SectionSymbole />
+      <SectionDon />
+      <SectionPartners />
     </div>
   );
 }

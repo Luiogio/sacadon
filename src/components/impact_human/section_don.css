@@ -1,0 +1,71 @@
+.don-container {
+  display: flex;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 60px;
+}
+
+/* LEFT COLUMN */
+.don-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.don-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.don-img {
+  width: 290px;
+  height: auto;
+  object-fit: contain;
+}
+
+.don-info {
+  flex: 1;
+}
+
+.don-title {
+  font-size: 40px;
+}
+
+.don-amount {
+  font-size: 37px;
+  margin: 20px 0 30px;
+}
+
+/* RIGHT COLUMN */
+.don-right {
+  flex: 1;
+}
+
+.don-main-title {
+  margin-bottom: 25px;
+}
+
+.don-text {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.don-list {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.don-list li {
+  margin-bottom: 5px;
+}
+
+.don-final-img {
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 25px;
+}
