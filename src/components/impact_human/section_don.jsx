@@ -14,7 +14,7 @@ export default function SectionDon() {
       {/* LEFT COLUMN */}
       <div className="don-left">
 
-        <div className="don-card">
+        <div className="don-card sacadon-card">
           <img src={ptitGeste} alt="Le P'tit Geste" className="don-img" />
           <div className="don-info">
             <div className="don-title sacadon-title2">Le P'tit geste</div>
@@ -23,7 +23,7 @@ export default function SectionDon() {
           </div>
         </div>
 
-        <div className="don-card">
+        <div className="don-card sacadon-card">
           <img src={genereux} alt="Le Généreux" className="don-img" />
           <div className="don-info">
             <div className="don-title sacadon-title2">Le Généreux</div>
@@ -32,7 +32,7 @@ export default function SectionDon() {
           </div>
         </div>
 
-        <div className="don-card">
+        <div className="don-card sacadon-card">
           <img src={signature} alt="Le Signature" className="don-img" />
           <div className="don-info">
             <div className="don-title sacadon-title2">Le Signature</div>
