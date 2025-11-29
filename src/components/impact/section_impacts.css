@@ -1,9 +1,4 @@
-.impacts-section {
-  padding: 100px 40px 0 40px;
-  position: relative;
-}
-
-.impacts-section::before {
+.impacts-container::before {
   content: "03";
   font-family: Fredoka;
   position: absolute;
@@ -15,6 +10,7 @@
 }
 
 .impacts-container {
+  padding: 100px 40px 0 40px;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;

@@ -1,0 +1,27 @@
+.actu-section {
+  width: 78vw;
+  margin: auto;
+}
+
+.peda-logo {
+  margin: 80px auto;
+}
+
+.peda-text {
+  width: 38vw;
+  margin: auto;
+  text-align: center;
+}
+
+.actu-reseau {
+  width: 16vw;
+  margin: auto;
+  display: flex;
+  gap: 12px;
+}
+
+.actu-button {
+  margin: auto;
+  width: 17vw;
+  padding: 60px 60px;
+}
