@@ -15,6 +15,7 @@ import ImpactHuman from "./components/impact_human/impact_human";
 import ImpactInfoPeda from "./components/impact_info_peda/impact_info_peda";
 
 import Contact from "./components/contact/contact";
+import JoinUs from "./components/join_us/join_us";
 
 export default function App() {
   // Scroll to top quand on arrive sur une nouvelle page
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="/information-pedagogie" element={<ImpactInfoPeda />} />
           
           <Route path="/contact" element={<Contact />} />
+          <Route path="/nous-rejoindre" element={<JoinUs />} />
         </Route>
       </Routes>
     </Router>

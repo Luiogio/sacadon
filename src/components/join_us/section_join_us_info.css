@@ -1,0 +1,53 @@
+.impacts-container::before {
+  content: "03";
+  font-family: Fredoka;
+  position: absolute;
+  top: 10px;
+  left: -40px;
+  font-size: 200px;
+  font-weight: 500;
+  color: rgba(200, 0, 0, 0.1);
+}
+
+.impacts-container {
+  padding: 100px 40px 0 40px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.impacts-text-content {
+  position: relative;
+  bottom: 6vh;
+  right: 2vw;
+  padding-left: 5vw;
+}
+
+.impacts-filtres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.impacts-button:hover {
+  background-color: #a71e2d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}  
+
+.impacts-image-content {
+  text-align: center;
+  position: relative;
+  bottom: 6rem;
+  right: 6rem;
+}
+
+.impacts-image {
+  width: 300px;
+  border-radius: 10px;
+}

@@ -35,7 +35,7 @@ export default function Header({onShowSecond}) {
                       </div>
 
                       <Link to="/contact" className="btn_header">Contact</Link>
-                      <Link className="btn_header">Nous rejoindre</Link>
+                      <Link to="/nous-rejoindre" className="btn_header">Nous rejoindre</Link>
                   </ul>
               </nav>
           </div>
