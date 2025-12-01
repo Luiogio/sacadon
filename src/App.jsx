@@ -7,11 +7,14 @@ import Layout from "./components/layout";
 import HomePage from "./components/home_page/home_page";
 import Solution from "./components/solution/solution";
 import History from "./components/history/history";
+import OurBags from "./components/our_bags/our_bags";
+
 import Impact from "./components/impact/impact";
 import ImpactEcological from "./components/impact_ecological/impact_ecological";
 import ImpactHuman from "./components/impact_human/impact_human";
 import ImpactInfoPeda from "./components/impact_info_peda/impact_info_peda";
-import OurBags from "./components/our_bags/our_bags";
+
+import Contact from "./components/contact/contact";
 
 export default function App() {
   // Scroll to top quand on arrive sur une nouvelle page
@@ -33,14 +36,14 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/solution" element={<Solution />} />
           <Route path="/histoire" element={<History />} />
+          <Route path="/nos-sacs" element={<OurBags />} />
           
           <Route path="/impacts" element={<Impact />} />
           <Route path="/impact-ecologique" element={<ImpactEcological />} />
           <Route path="/impact-humanitaire" element={<ImpactHuman />} />
-          <Route path="/impact-humanitaire" element={<ImpactHuman />} />
           <Route path="/information-pedagogie" element={<ImpactInfoPeda />} />
           
-          <Route path="/nos-sacs" element={<OurBags />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </Router>

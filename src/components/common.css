@@ -13,6 +13,7 @@
   transition: all 0.3s ease;
   margin: 15px auto 0 auto;
   z-index: 1111;
+  text-align: center;
 }
 
 .need-more-button:hover {
