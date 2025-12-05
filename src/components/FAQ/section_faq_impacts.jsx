@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./section_faq.css";
 
-export default function FAQ() {
+export default function FAQImpacts() {
   const faqs = [
     {
       question: "Comment entretenir mon sac SACADON ?",

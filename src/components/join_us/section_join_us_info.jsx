@@ -24,13 +24,13 @@ export default function JoinUsInfo() {
 
         <div className="impacts-filtres">
             <Link to="/impact-ecologique" className="need-more-button">
-              Impact Ecologique
+              Devenir bénévole
             </Link>
             <Link to="/impact-humanitaire" className="need-more-button">
-              Impact Humanitaire
+              Devenir ambassadeur
             </Link>
             <Link to="/information-pedagogie" className="need-more-button">
-              Information & Pédagogie
+              Proposer un partenariat
             </Link>
         </div>
       </div>

@@ -1,15 +1,15 @@
 import JoinUsInfo from './section_join_us_info.jsx';
-import SchemaImpactSection from './section_schema_impact.jsx';
+import HowToJoin from './section_how_to_join.jsx';
 
-import FAQ from '../FAQ/section_faq.jsx';
+import FAQJoin from '../FAQ/section_faq_join.jsx';
 
 export default function JoinUs() {
   return (
     <div className='body'>
       <JoinUsInfo />
-      <SchemaImpactSection />
+      <HowToJoin />
 
-      <FAQ />
+      <FAQJoin />
     </div>
   );
 }

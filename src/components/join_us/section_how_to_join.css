@@ -1,0 +1,25 @@
+.join-section {
+    padding: 20px;
+}
+
+.join-titre {
+    width: 55vw;
+    margin: auto;
+}
+
+.join-soustitre {
+    width: 55vw;
+    margin: 30px auto;
+    line-height: 150%;
+}
+
+.join-avantages {
+    gap: 40px;
+    margin: 90px 0;
+}
+
+.join-card {
+    height: 58vh;
+    padding: 30px;
+    width: 20vw;
+}
