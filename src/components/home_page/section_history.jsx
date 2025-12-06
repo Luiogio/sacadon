@@ -7,7 +7,7 @@ import logo_S from '../../assets/home_page/logo_S.png';
 
 export default function HistorySection() {
   return (
-    <div className="history">
+    <div className="history-section">
       <div className="history-container">
 
         <div className="history-image">

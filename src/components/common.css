@@ -1,26 +1,51 @@
 .body {
   background-color: #F4EBDC;
+  position: relative;
+  z-index: 1;
+  overflow: visible; /* ne pas couper le menu */
 }
 
-.need-more-button {
-  background-color: #DB214F;
-  color: white;
-  font-weight: 600;
-  font-size: 23px;
-  padding: 12px 40px;
-  border-radius: 15px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  margin: 15px auto 0 auto;
-  z-index: 1111;
+.sacadon-section {
+  padding: 100px 40px 40px;
+  /* position: relative; */
+}
+
+.sacadon-section::before {
+  font-family: Fredoka;
+  position: absolute;
+  top: 21px;
+  left: -23px;
+  font-size: 170px;
+  font-weight: 700;
+  color: rgba(200, 0, 0, 0.1);
+}
+
+.sacadon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sacadon-text-content {
+  flex: 1;
+  position: relative;
+  bottom: 8vh;
+  right: 2vw;
+  padding-left: 5vw;
+}
+
+.sacadon-image-content {
+  flex: 1;
   text-align: center;
+  position: relative;
+  bottom: 5rem;
 }
 
-.need-more-button:hover {
-  background-color: #a71e2d;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
+
+
 
 .sacadon-title {
   color: #223B45;
@@ -51,4 +76,25 @@
 
 .sacadon-card {
   background-color: #F5F2ED;
+}
+
+.need-more-button {
+  background-color: #DB214F;
+  color: white;
+  font-weight: 600;
+  padding: 12px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: flex;
+  
+  justify-content: center;
+  margin: 15px auto 0 auto;
+  font-size: 23px;
+}
+
+.need-more-button:hover {
+  background-color: #a71e2d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }

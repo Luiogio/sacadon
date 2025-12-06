@@ -6,10 +6,10 @@ import sacNotreMission from '../../assets/home_page/sac_notre_mission.png';
 
 export default function MissionSection() {
   return (
-    <div className="mission-section">
-      <div className="mission-container">
+    <div className="sacadon-section mission-section">
+      <div className="sacadon-container">
 
-        <div className="mission-text-content">
+        <div className="sacadon-text-content">
           <div className="sacadon-title">NOTRE MISSION</div>
           <div className="sacadon-text">
             Un sac, deux impacts : écologie & solidarité
@@ -24,9 +24,9 @@ export default function MissionSection() {
           </p>
         </div>
 
-        <div className="mission-image-content">
+        <div className="sacadon-image-content">
           <img src={sacNotreMission} alt="Sacadon" className="mission-image" />
-          <Link to="/nos-sacs" className="need-more-button">
+          <Link to="/nos-sacs" className="need-more-button mission-button">
             En savoir plus +
           </Link>
         </div>
