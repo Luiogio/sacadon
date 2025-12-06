@@ -16,6 +16,7 @@ import ImpactInfoPeda from "./components/impact_info_peda/impact_info_peda";
 
 import Contact from "./components/contact/contact";
 import JoinUs from "./components/join_us/join_us";
+import FAQ from "./components/faq/faq";
 
 export default function App() {
   // Scroll to top quand on arrive sur une nouvelle page
@@ -46,6 +47,7 @@ export default function App() {
           
           <Route path="/contact" element={<Contact />} />
           <Route path="/nous-rejoindre" element={<JoinUs />} />
+          <Route path="/faq" element={<FAQ />} />
         </Route>
       </Routes>
     </Router>

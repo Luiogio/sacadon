@@ -1,23 +1,37 @@
 .faq-section {
   background-color: #f9ecdc;
   padding: 60px 30px 8rem 30px;
-  text-align: center;
 }
 
 .faq-title {
-  color: #2CA397;
-  font-family: 'Fredoka';
-  font-size: 64px;
+  width: 60vw;
+  position: relative;
+  margin: 40px 40px;
+  text-align: center;
+}
+
+.faq-subtitle {
+  margin-left: 10vw;
+}
+
+.faq-title::before {
+  content: "FOIRE AUX QUESTIONS";
+  font-family: Fredoka;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  font-size: 105px;
   font-weight: 700;
-  margin-bottom: 40px;
+  color: rgba(200, 0, 0, 0.1);
 }
 
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5%;
-  width: 82%;
-  margin: 0 auto 9rem auto;
+  gap: 70px;
+  width: 75vw;
+  margin: 10vh auto 0 auto;
+  text-align: center;
 }
 
 .faq-card {
@@ -27,6 +41,7 @@
   text-align: left;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 33vw;
 }
 
 .faq-card:hover {

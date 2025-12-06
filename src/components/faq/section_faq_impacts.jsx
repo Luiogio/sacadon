@@ -32,7 +32,7 @@ export default function FAQImpacts() {
       question: "Puis-je retourner un sac s’il ne me convient pas ?",
       answer:
         "Bien sûr. Vous disposez de 14 jours après réception pour nous retourner le produit non utilisé dans son emballage d’origine.",
-    },
+    }
   ];
 
   return (

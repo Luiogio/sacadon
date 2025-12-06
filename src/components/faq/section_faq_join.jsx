@@ -32,7 +32,7 @@ export default function FAQJoin() {
       question: "Faut-il avoir de l’expérience pour être bénévole ?",
       answer:
         "Pas du tout ! Ce qui compte, c’est l’envie d’aider. On vous accompagne selon vos envies et compétences.",
-    },
+    }
   ];
 
   return (
