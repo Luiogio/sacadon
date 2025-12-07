@@ -2,6 +2,10 @@
   content: "01";
 }
 
+.mission-text {
+  line-height: 1.6;
+}
+
 .mission-image {
   width: 100%;
   max-width: 300px;

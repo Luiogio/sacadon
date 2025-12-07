@@ -1,10 +1,7 @@
 .history-section {
-  background-color: #F4EBDC;
   padding: 20vh 20px 17vh 20px;
-  font-family: Arial, sans-serif;
 }
 
-/* Container en deux colonnes */
 .history-container {
   display: flex;
   flex-direction: row;
@@ -61,28 +58,15 @@
 }
 
 .history-title {
-  font-family: 'Fredoka';
-  font-size: 64px;
-  font-weight: 600;
-  color: #2CA397;
   margin-bottom: 15px;
-  margin-left: 50px;
 }
 
 .history-subtitle {
-  font-family: 'Cormorant Garamond';
-  font-size: 40px;
-  font-weight: 500;
-  color: #DB214F;
   margin-bottom: 20px;
   line-height: 150%;
 }
 
 .history-text {
-  font-family: 'Century Gothic';
-  font-size: 21px;
-  color: #223B45;
-  line-height: 150%;
   letter-spacing: 1px;
 }
 

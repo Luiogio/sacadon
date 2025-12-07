@@ -1,15 +1,5 @@
-.solution {
-  background-color: #F4EBDC;
+.solution-section {
   text-align: center;
-  font-family: 'Fredoka';
-}
-
-.solution-title {
-  font-size: 64px;
-  font-weight: 600;
-  color: #2CA397; /* vert canard */
-  margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 .solution-cards {
@@ -17,7 +7,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   width: 64vw;
-  margin: 0 auto 50px auto;
+  margin: 50px auto;
 }
 
 .solution-card {
@@ -38,26 +28,21 @@
 }
 
 .title-card {
-  font-family: 'Fredoka';
   font-weight: 600;
   font-size: 32px;
-  color: #223B45;
   height: 80px;
 }
 
-.title-card div {
-  padding-top: 20px;
+.label-card {
+  position: relative;
+  top: 20px;
 }
 
 .text-card {
-  font-family: 'Century Gothic';
-  font-weight: 400;
   font-size: 20px;
-  color: #223B45;
   margin-top: 10px;
-  line-height: 150%;
 }
 
-.solution a {
-  width: 220px;
+.solution-button {
+  width: 10vw;
 }

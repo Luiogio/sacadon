@@ -20,14 +20,14 @@ export default function HistorySection() {
         </div>
 
         <div className="history-content">
-          <div className="history-title">NOTRE HISTOIRE</div>
+          <div className="sacadon-title2 history-title">NOTRE HISTOIRE</div>
 
-          <div className="history-subtitle">
+          <div className="sacadon-text history-subtitle">
             Une idée simple au service de tous : <br />
             Former, informer, faire participer
           </div>
 
-          <div className="history-text">
+          <div className="sacadon-text2 history-text">
             Derrière SACADON, il y a l’histoire d’un <b>entrepreneur engagé</b>
             (fondateur du <a href='https://www.handicap-international.fr/fr/actualites/sac-a-sapin' target="_blank">Sac à Sapin</a>),
             d’une volonté <b>familiale et intergénérationnelle</b> de répondre à deux urgences : la

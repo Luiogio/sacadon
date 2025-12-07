@@ -63,19 +63,31 @@
 
 .sacadon-text {
   color: #DB214F;
-  font-family: 'Cormorant Garamond';
+  font-family: Cormorant Garamond;
   font-size: 40px;
 }
 
 .sacadon-text2 {
   color: #223B45;
-  font-family: 'Century Gothic';
+  font-family: Century Gothic;
   font-size: 25px;
-  line-height: 1.6;
 }
 
 .sacadon-card {
   background-color: #F5F2ED;
+}
+
+.sacadon-text-card {
+  color: #223B45;
+  font-family: Fredoka;
+  font-size: 25px;
+}
+
+.sacadon-number {
+  font-family: Fredoka;
+  font-size: 63px;
+  font-weight: 600;
+  color: #223B45;
 }
 
 .need-more-button {

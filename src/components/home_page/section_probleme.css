@@ -1,73 +1,53 @@
 .probleme-section {
-  height: 95vh;
-  background-color: #F4EBDC;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 2rem;
-  font-family: Arial, sans-serif;
+  padding: 0 2vh 15vh;
 }
 
-.top-section {
+.probleme-top-section {
   display: flex;
-  gap: 17vw;
+  gap: 30vw;
   justify-content: space-between;
   width: 92%;
 }
 
-.title {
-  font-family: 'Fredoka';
-  font-size: 64px;
-  font-weight: 600;
-  color: #2CA397;
-  margin-bottom: 0.5rem;
-}
-
-.subtitle {
-  font-size: 40px;
-  font-family: 'Cormorant Garamond';
-  color: #DB214F;
-  font-weight: 500;
+.probleme-section-subtitle {
   margin-top: 1rem;
   margin-bottom: 2rem;
 }  
 
-.intro {
-  font-family: 'Century Gothic';
+.probleme-intro {
   font-size: 21px;
-  font-weight: 400;
-  color: #223B45;
   width: 24vw;
   letter-spacing: 1px;
-  line-height: 150%;
+  line-height: 1.6;
   position: relative;
   right: 6rem;
 }
 
-.content {
+.probleme-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
-  max-width: 88vw;
+  width: 89vw;
   align-items: center;
 }  
 
 .pollution-image {
   border-radius: 50px;
   width: 100%;
-  height: auto;
-  display: block;
 }  
 
-.text-box {
+.probleme-text-box {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   position: relative;
   bottom: 1.5rem;
 }  
 
-.card {
+.probleme-card {
   display: flex;
   flex-direction: row;
   background: white;
@@ -78,20 +58,14 @@
 }
 
 .card-number {
-  font-family: 'Fredoka';
-  font-size: 63px;
-  font-weight: 600;
-  color: #223B45;
   margin: auto 19px;
   width: 13rem;
 }
 
 .card-text {
-  font-family: 'Century Gothic';
   font-size: 19px;
-  font-weight: 400;
-  color: #223B45;
   width: 17rem;
+  line-height: 1.3;
 }
 
 .source, .source a {

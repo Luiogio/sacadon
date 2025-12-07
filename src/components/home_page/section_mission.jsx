@@ -14,7 +14,7 @@ export default function MissionSection() {
           <div className="sacadon-text">
             Un sac, deux impacts : écologie & solidarité
           </div>
-          <p className="sacadon-text2">
+          <p className="sacadon-text2 mission-text">
             <b>SACADON</b> est une initiative qui transforme un simple
             geste d’achat en un acte doublement engagé. En proposant des sacs
             conçus à partir de plastique recyclé et en reversant une partie des
