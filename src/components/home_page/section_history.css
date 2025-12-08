@@ -1,12 +1,9 @@
 .history-section {
-  padding: 20vh 20px 17vh 20px;
-}
-
-.history-container {
+  padding: 20vh 20px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 155px;
+  gap: 126px;
   width: 73vw;
   margin: 0 auto;
 }
@@ -16,46 +13,22 @@
   flex: 1;
 }
 
-.history-image .image {
+.history-image {
   width: 100%;
-  /* object-fit: cover; */
-}
-
-.history-button {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.history-button button {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Century Gothic';
-  background-color: #DB214F;
-  color: white;
-  padding: 13px 52px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.history-button button:hover {
-  background-color: #cc0052;
-}
-
-.history-content {
-  flex: 1;
-  text-align: left;
-  position: relative;
-  text-align: right;
-}
+}  
 
 .history-logo {
   width: 35%;
   position: absolute;
-  bottom: 20rem;
-  left: 25vw;
+  bottom: 15rem;
+  left: 24vw;
   z-index: 1;
 }
+
+.history-content {
+  flex: 1;
+  text-align: right;
+}  
 
 .history-title {
   margin-bottom: 15px;
@@ -63,7 +36,7 @@
 
 .history-subtitle {
   margin-bottom: 20px;
-  line-height: 150%;
+  line-height: 1.1;
 }
 
 .history-text {
