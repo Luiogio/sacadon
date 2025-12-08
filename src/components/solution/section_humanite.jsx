@@ -25,7 +25,7 @@ export default function Humanite() {
         </div>
       </div>
 
-      <Link to="/solution" className="need-more-button humanite-button">
+      <Link to="/information-pedagogie" className="need-more-button humanite-button">
         Découvrir les associations partenaires
       </Link>
     </div>

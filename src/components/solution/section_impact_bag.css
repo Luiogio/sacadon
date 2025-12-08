@@ -4,15 +4,15 @@
 }
 
 .impact-titre {
-  font-weight: 700;
   margin-bottom: 16px;
+  font-size: 70px;
 }
 
 .impact-soustitre {
   width: 55vw;
   font-size: 36px;
   margin: 30px auto;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .impact-avantages {
@@ -28,10 +28,10 @@
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   padding: 20px 30px;
-  font-size: 25px;
-  color: #223B45;
   width: 220px;
-  line-height: 150%;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
 }
 
 .impact-button {

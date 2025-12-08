@@ -4,7 +4,7 @@
 }
 
 .label-titre {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   text-align: right;
 }
 
@@ -12,30 +12,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 9vw;
+  gap: 8vw;
 }
 
 .label-section img {
   border-radius: 12px;
-  width: 714px;
-  height: 530px;
+  width: 800px;
 }  
 
 .label-contenu {
   text-align: right;
-  width: 714px;
+  /* width: 714px; */
   height: 530px;
 }  
-
-.label-texte {
-  font-size: 25px;
-  line-height: 1.6;
-  margin-bottom: 40px;
-}
-
-.label-texte span {
-  margin-right: 6px;
-}
 
 .button {
   display: flex;

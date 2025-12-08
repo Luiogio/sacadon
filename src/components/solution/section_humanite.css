@@ -9,8 +9,6 @@
 .humanite-contenu {
   display: flex;
   gap: 216px;
-  /* flex-wrap: wrap; */
-  /* text-align: left; */
 }
 
 .texte-gauche {
@@ -19,19 +17,18 @@
 
 .texte-principal {
   font-size: 46px;
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
 }
 
 .texte-secondaire {
-  font-size: 25px;
   margin-top: 10px;
 }
 
 .actions-droite {
   display: flex;
   flex-direction: column;
-  gap: 56px;
+  gap: 50px;
 }
 
 .card-humanite {
