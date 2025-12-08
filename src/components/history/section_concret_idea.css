@@ -1,7 +1,19 @@
 .concret-img {
-  width: 43%;
+  width: 46%;
 }
 
 .concret-card {
   padding: 45px 60px;
+}
+
+.origine-title {
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-size: 55px;
+}
+
+.concret-title {
+  margin-bottom: 30px;
+  line-height: 1.2;
+  font-size: 52px;
 }

@@ -8,10 +8,6 @@
 
 .titre-history {
   width: 52vw;
-  font-size: 100px;
-  font-weight: 700;
-  font-family: Fredoka;
-  color: #223B45;
   position: relative;
 }
 
@@ -24,28 +20,4 @@
   font-size: 124px;
   font-weight: 500;
   color: rgba(200, 0, 0, 0.1);
-}
-
-.soustitre {
-  font-size: 40px;
-  font-weight: 500;
-  font-family: 'Cormorant Garamond';
-  color: #DB214F;
-  width: 50vw;
-  margin: 40px auto;
-}
-
-.texte-section {
-  font-family: 'Century Gothic';
-  max-width: 70vw;
-  color: #223B45;
-  font-size: 25px;
-  line-height: 150%;
-  margin: 16px 0 60px 0;
-}
-
-.our-history-section img {
-  width: 30%;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

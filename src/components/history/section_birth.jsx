@@ -6,7 +6,7 @@ export default function Birth() {
   return (
     <div className="origine-container">
       <div className="origine-text-card birth-card">
-        <div className="origine-title sacadon-title2">La naissance du “produit partage”</div>
+        <div className="birth-title sacadon-title2">La naissance du “produit partage”</div>
 
         <p className="origine-paragraph sacadon-text2">
           Avec le SAC À SAPIN, un principe est posé :
@@ -20,7 +20,7 @@ export default function Birth() {
         </p>
       </div>
 
-      <img src={birth} alt="Origine Engagée" className="origine-image" />
+      <img src={birth} alt="Origine Engagée" className="birth-image" />
     </div>
   );
 }

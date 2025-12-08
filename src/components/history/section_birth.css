@@ -2,6 +2,19 @@
   padding: 35px 60px;
 }
 
+.birth-title {
+  margin-bottom: 25px;
+  line-height: 1.2;
+  font-size: 55px;
+}
+
 .origine-paragraph li {
   margin-left: 35px;
+}
+
+.birth-image {
+  width: 54%;
+  height: auto;
+  border-radius: 40px;
+  object-fit: cover;
 }

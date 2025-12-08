@@ -1,6 +1,6 @@
 import './section_origine.css';
 
-import origine from '../../assets/our_history/origine_engagée.png';
+import origine from '../../assets/our_history/origine.png';
 
 export default function Origine() {
   return (
