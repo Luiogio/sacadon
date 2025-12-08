@@ -12,7 +12,7 @@ export default function HistorySection() {
         <img src={history_picture} alt="Notre histoire"  className="history-image"/>
         <img src={logo_S} alt="Logo S"  className="history-logo"/>
         
-        <Link to="/histoire" className="need-more-button">
+        <Link to="/histoire" className="need-more-button solution-button">
           En savoir plus +
         </Link>
       </div>
