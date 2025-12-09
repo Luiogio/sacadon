@@ -79,23 +79,21 @@ export default function schemaImpactSection() {
   ];
 
   return (
-    <section className="schema-impact-section">
       <div className="schema-impact-grid">
-
         {/* Etiquettes de gauche */}
         <div className="card-impact">
           {items.slice(0, 3).map((item, index) => (
             index === 1 ? (
               <div className="schema-impact-card-left" key={index}>
                 <img src={item.icon} className="icon" />
-                <div className="schema-impact-title">{item.title}</div>
-                <div className="schema-impact-text">{item.text}</div>
+                <div className="sacadon-title schema-impact-title">{item.title}</div>
+                <div className="sacadon-text2 schema-impact-text">{item.text}</div>
               </div>
             ) : 
               <div className="schema-impact-card" key={index}>
                 <img src={item.icon} className="icon" />
-                <div className="schema-impact-title">{item.title}</div>
-                <div className="schema-impact-text">{item.text}</div>
+                <div className="sacadon-title schema-impact-title">{item.title}</div>
+                <div className="sacadon-text2 schema-impact-text">{item.text}</div>
               </div>
           ))}
         </div>
@@ -122,20 +120,18 @@ export default function schemaImpactSection() {
             index === 1 ? (
               <div className="schema-impact-card-right" key={index}>
                 <img src={item.icon} className="icon" />
-                <div className="schema-impact-title">{item.title}</div>
-                <div className="schema-impact-text">{item.text}</div>
+                <div className="sacadon-title schema-impact-title">{item.title}</div>
+                <div className="sacadon-text2 schema-impact-text">{item.text}</div>
               </div>
             ) : 
               <div className="schema-impact-card" key={index}>
                 <img src={item.icon} className="icon" />
-                <div className="schema-impact-title">{item.title}</div>
-                <div className="schema-impact-text">{item.text}</div>
+                <div className="sacadon-title schema-impact-title">{item.title}</div>
+                <div className="sacadon-text2 schema-impact-text">{item.text}</div>
               </div>
           ))}
         </div>
-
       </div>
-    </section>
   );
 }
 

@@ -6,7 +6,6 @@ import impactsPicture from '../../assets/impacts/impacts_picture.png';
 export default function Impacts() {
   return (
     <div className="impacts-container">
-
       <div className="impacts-text-content">
         <div className="sacadon-title">IMPACTS</div>
         <div className="sacadon-text">

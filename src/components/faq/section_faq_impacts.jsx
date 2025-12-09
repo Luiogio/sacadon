@@ -4,40 +4,40 @@ import "./section_faq.css";
 export default function FAQImpacts() {
   const faqs = [
     {
-      question: "Comment entretenir mon sac SACADON ?",
+      question: "Quelles sont les associations bénéficiaires ?",
       answer:
-        "Nos sacs sont conçus pour durer.\n La plupart de nos modèles sont lavables à la main ou en machine à 30°C, sans essorage.",
+        "Actuellement, nous collaborons avec des partenaires comme Action contre la Faim, mais aussi des associations locales choisies pour leur transparence et leur impact concret.",
     },
     {
-      question: "Vos sacs sont-ils vraiment solides ?",
+      question: "Combien de plastique est recyclé pour un sac ?",
       answer:
-        "Nos modèles sont testés pour supporter un usage quotidien, et les coutures sont renforcées (notamment sur la gamme CABA et Signature).",
+        "Cela dépend du modèle :\n• Le P’tit Geste contient en moyenne 3 bouteilles plastiques recyclées\n• Le Généreux, environ 5 à 6 bouteilles\n• La Signature — jusqu'à 8 bouteilles recyclées",
     },
     {
-      question: "De quoi sont fait vos sacs ?",
+      question: "Comment mon achat sensibilise-t-il le grand public ?",
       answer:
-        "Nos sacs sont réalisés à partir de plastique recyclé (RPET) provenant de bouteilles collectées et revalorisées.",
+        "Chaque sac est un support de message. Il est designé pour interpeller, informer et inspirer. En le portant, vous participez à faire connaître un nouveau mode de consommation engagé.",
     },
     {
-      question: "Comment fonctionne le don solidaire ?",
+      question: "Pourquoi avoir choisi de combiner écologie et solidarité ?",
       answer:
-        "À chaque achat, une partie du prix est reversée à une association partenaire. Le montant exact du don est indiqué sur chaque fiche produit.",
+        "Parce qu’on ne peut pas choisir entre sauver la planète ou aider les gens. SACADON agit sur les deux fronts, avec un objet du quotidien.",
     },
     {
-      question: "Quels sont les délais pour la livraison ?",
+      question: "Les sacs sont-ils fabriqués en France ?",
       answer:
-        "Les délais de livraison en France métropolitaine sont en moyenne de 3 à 5 jours ouvrés après commande.",
+        "Oui, une grande partie de notre production est faite en France ou en Europe, dans des structures engagées dans l’économie circulaire et/ou l’insertion.",
     },
     {
-      question: "Puis-je retourner un sac s’il ne me convient pas ?",
+      question: "Est-ce que mon sac a un QR code pour suivre son impact ?",
       answer:
-        "Bien sûr. Vous disposez de 14 jours après réception pour nous retourner le produit non utilisé dans son emballage d’origine.",
+        "Pas encore, mais c’est en réfléxion ! Nous travaillons sur une solution pour que chaque sac puisse afficher son impact via un QR code ou un lien unique.",
     }
   ];
 
   return (
     <div className="faq-section">
-      <div className="faq-title">FOIRE AUX QUESTIONS</div>
+      <div className="sacadon-title2 faq-title-pages">FOIRE AUX QUESTIONS</div>
 
       <div className="faq-grid">
         {faqs.map((item, index) => (
@@ -48,7 +48,7 @@ export default function FAQImpacts() {
         ))}
       </div>
 
-      <Link className="faq-button">Voir toutes les questions</Link>
+      <Link to="/faq" className="need-more-button faq-button">Voir toutes les questions</Link>
     </div>
   );
 }
