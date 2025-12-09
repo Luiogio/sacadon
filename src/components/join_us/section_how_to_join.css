@@ -1,5 +1,5 @@
 .join-section {
-    padding: 20px;
+    margin: 40px auto;
 }
 
 .join-titre {
@@ -19,7 +19,7 @@
 }
 
 .join-card {
-    height: 58vh;
+    height: 50vh;
     padding: 30px;
     width: 20vw;
 }

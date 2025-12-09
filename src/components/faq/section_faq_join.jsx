@@ -37,7 +37,7 @@ export default function FAQJoin() {
 
   return (
     <div className="faq-section">
-      <div className="faq-title">FOIRE AUX QUESTIONS</div>
+      <div className="sacadon-title2 faq-title-pages">FOIRE AUX QUESTIONS</div>
 
       <div className="faq-grid">
         {faqs.map((item, index) => (
@@ -48,7 +48,7 @@ export default function FAQJoin() {
         ))}
       </div>
 
-      <Link className="faq-button">Voir toutes les questions</Link>
+      <Link to="/faq" className="need-more-button faq-button">Voir toutes les questions</Link>
     </div>
   );
 }
