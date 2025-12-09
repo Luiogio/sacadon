@@ -13,13 +13,12 @@ export default function SectionDon() {
 
       {/* LEFT COLUMN */}
       <div className="don-left">
-
         <div className="don-card sacadon-card">
           <img src={ptitGeste} alt="Le P'tit Geste" className="don-img" />
           <div className="don-info">
             <div className="don-title sacadon-title2">Le P'tit geste</div>
             <p className="don-amount sacadon-title">= 30 centimes reversés</p>
-            <Link className="need-more-button">Je découvre</Link>
+            <Link to="/nos-sacs" className="need-more-button don-button">Je découvre</Link>
           </div>
         </div>
 
@@ -28,7 +27,7 @@ export default function SectionDon() {
           <div className="don-info">
             <div className="don-title sacadon-title2">Le Généreux</div>
             <p className="don-amount sacadon-title">= 1€ reversé</p>
-            <Link className="need-more-button">Je découvre</Link>
+            <Link to="/nos-sacs" className="need-more-button">Je découvre</Link>
           </div>
         </div>
 
@@ -37,16 +36,14 @@ export default function SectionDon() {
           <div className="don-info">
             <div className="don-title sacadon-title2">Le Signature</div>
             <p className="don-amount sacadon-title">= 1,50€ reversé</p>
-            <Link className="need-more-button">Je découvre</Link>
+            <Link to="/nos-sacs" className="need-more-button">Je découvre</Link>
           </div>
         </div>
-
       </div>
 
       {/* RIGHT COLUMN */}
       <div className="don-right">
         <div className="don-main-title sacadon-title2">UN ACHAT = UN DON</div>
-
         <p className="don-text sacadon-text2">
           À chaque sac SACADON acheté, une partie du prix est directement reversée à une association via notre structure partenaire.
         </p>
