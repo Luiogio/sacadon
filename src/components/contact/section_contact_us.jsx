@@ -6,12 +6,12 @@ export default function SectionContactUs() {
   return (
     <div className="impacts-container contact-us-container">
 
-      <div className="impacts-text-content">
+      <div className="impacts-text-content human-text-content">
         <div className="sacadon-title">CONTACT</div>
         <div className="sacadon-text">
           Une question ? Un projet ? Envie de nous rejoindre ?
         </div>
-        <p className="mission-text">
+        <p className="sacadon-text2">
           <b>SACADON</b> est une aventure humaine, et on adore les rencontres.<br />
           Que vous soyez <b>curieux, partenaire potentiel</b> ou juste <b>motivé</b>, écrivez-nous !<br />
           On vous répond (et avec le sourire).
