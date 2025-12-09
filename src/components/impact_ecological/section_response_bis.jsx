@@ -6,7 +6,6 @@ export default function SectionResponseBis() {
       <div className="sacadon-title2">ET CONCRÈTEMENT ?</div>
 
       <div className="response_bis-grid">
-
         {/* Colonne gauche */}
         <div className="response_bis-column">
           <div className="sacadon-title response_bis-subtitle">IMPACT MESURÉ</div>
@@ -48,7 +47,6 @@ export default function SectionResponseBis() {
             Partenaires industriels français ou européens engagés
           </div>
         </div>
-
       </div>
     </div>
   );

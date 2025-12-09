@@ -18,9 +18,8 @@ export default function SectionSymbole() {
           <b>SACADON redonne du sens</b> à un symbole perdu.
         </p>
 
-        <Link className="symbole-button need-more-button">Découvrir nos sacs</Link>
+        <Link to="/nos-sacs" className="symbole-button need-more-button">Découvrir nos sacs</Link>
       </div>
-
     </div>
   );
 }
