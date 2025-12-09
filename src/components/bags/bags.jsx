@@ -1,22 +1,22 @@
 // Our Bags Component
-import OurBagsSection from './section_our_bags.jsx';
+import BagsSection from './section_bags.jsx';
 
 import SoftGammeSection from './section_soft_gamme.jsx';
 import CabaGammeSection from './section_caba_gamme.jsx';
 import UpscaleGammeSection from './section_upscale_gamme.jsx';
 
-import FAQ from '../faq/section_faq.jsx';
+import FAQBags from '../faq/section_faq_bags.jsx';
 
-export default function OurBags() {
+export default function Bags() {
   return (
     <div className='body'>
-      <OurBagsSection />
+      <BagsSection />
       
       <SoftGammeSection />
       <CabaGammeSection />
       <UpscaleGammeSection />
 
-      <FAQ />
+      <FAQBags />
     </div>
   );
 }

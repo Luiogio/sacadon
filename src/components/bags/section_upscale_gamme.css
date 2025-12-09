@@ -1,11 +1,8 @@
 .upscale-image {
-  border-radius: 50px;
-  width: 93%;
-  height: auto;
-  display: block;
+  width: 96%;
 }  
 
-.upscale-bag-card {
+.upscale-card {
   display: flex;
   flex-direction: column;
   background: white;
@@ -16,24 +13,16 @@
   width: 92%;
 }
 
-.upscale-bag-card-title {
-  font-family: 'Fredoka';
-  font-size: 43px;
-  font-weight: 600;
-  color: #2CA397;
+.upscale-card-title {
   margin: auto 0px;
 }
 
-.upscale-bag-card-text {
-  font-family: 'Century Gothic';
+.upscale-card-text {
   font-size: 20px;
-  font-weight: 400;
-  color: #223B45;
   line-height: 150%;
-  width: 100%;
 }
 
-.upscale-bag-card-text2 {
+.upscale-card-text2 {
   font-family: 'Century Gothic';
   font-size: 21px;
   font-weight: 600;

@@ -8,7 +8,6 @@ export default function MissionSection() {
   return (
     <div className="sacadon-section mission-section">
       <div className="sacadon-container">
-
         <div className="sacadon-text-content">
           <div className="sacadon-title">NOTRE MISSION</div>
           <div className="sacadon-text">

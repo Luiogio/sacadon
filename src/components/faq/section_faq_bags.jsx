@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./section_faq.css";
 
-export default function FAQImpacts() {
+export default function FAQBags() {
   const faqs = [
     {
       question: "Comment entretenir mon sac SACADON ?",
@@ -37,7 +37,7 @@ export default function FAQImpacts() {
 
   return (
     <div className="faq-section">
-      <div className="faq-title">FOIRE AUX QUESTIONS</div>
+      <div className="sacadon-title2 faq-title-pages">FOIRE AUX QUESTIONS</div>
 
       <div className="faq-grid">
         {faqs.map((item, index) => (
@@ -48,7 +48,7 @@ export default function FAQImpacts() {
         ))}
       </div>
 
-      <Link className="faq-button">Voir toutes les questions</Link>
+      <Link to="/faq" className="need-more-button faq-button">Voir toutes les questions</Link>
     </div>
   );
 }

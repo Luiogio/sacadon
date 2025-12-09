@@ -45,7 +45,7 @@ export default function SectionDon() {
 
       {/* RIGHT COLUMN */}
       <div className="don-right">
-        <h2 className="don-main-title sacadon-title2">UN ACHAT = UN DON</h2>
+        <div className="don-main-title sacadon-title2">UN ACHAT = UN DON</div>
 
         <p className="don-text sacadon-text2">
           À chaque sac SACADON acheté, une partie du prix est directement reversée à une association via notre structure partenaire.

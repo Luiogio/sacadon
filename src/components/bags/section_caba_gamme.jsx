@@ -1,31 +1,30 @@
 import { Link } from "react-router-dom";
 import "./section_caba_gamme.css";
 
-import caba_gamme from "../../assets/our_bags/gamme_caba.png";
-import v1 from "../../assets/our_bags/v1.png";
-import v3 from "../../assets/our_bags/v3.png";
-import v5 from "../../assets/our_bags/v5.png";
-import v6 from "../../assets/our_bags/v6.png";
+import caba_gamme from "../../assets/bags/gamme_caba.png";
+import v1 from "../../assets/bags/v1.png";
+import v2 from "../../assets/bags/v2.png";
+import v3 from "../../assets/bags/v3.png";
+import v4 from "../../assets/bags/v4.png";
 
 export default function CabaGammeSection() {
   return (
     <div className="soft-section">
-
-      <div className="title-soft">
-        <div className="title">GAMME CABA</div>
-        <h2 className="subtitle">
+      <div className="soft-title">
+        <div className="sacadon-title2">GAMME CABA</div>
+        <div className="sacadon-text soft-subtitle">
           Le sac généreux et engagé pour tout emporter
-        </h2>
+        </div>
       </div>
 
       {/* Sac Léger */}
-      <div className="soft-bag-content">
-          <img src={caba_gamme} alt="Sac Gamme Caba" className="soft-image" />
+      <div className="soft-content">
+          <img src={caba_gamme} alt="Sac Gamme Caba" className="soft-image caba-image" />
 
-        <div className="caba-bag-card">
-          <p className="caba-bag-card-title">Le Généreux</p>
+        <div className="caba-card">
+          <p className="sacadon-title2 soft-card-title">Le Généreux</p>
           
-          <p className="caba-bag-card-text">
+          <p className="sacadon-text2 caba-card-text">
             Un sac cabas <b>solide</b>, <b>réutilisable</b> et <b>stylé.</b> <br />
             Il vous suit au marché, au travail, à la plage… <br />
             Fabriqué à partir de <b>plastique recyclé</b>, 
@@ -42,7 +41,7 @@ export default function CabaGammeSection() {
             🧼 Entretien : lavable en machine à 30°C
           </p>
 
-          <p className="caba-bag-card-text2">
+          <p className="caba-card-text2">
             💝 Impact solidaire : 1 € reversés à l’association partenaire
           </p>          
        </div>
@@ -50,9 +49,8 @@ export default function CabaGammeSection() {
 
       {/* Différents modèles du sac */}
       <div className="model-list">
-
         {/* Bag V1 */}
-        <div className="model-soft-bag-card">
+        <div className="model-soft-card">
           <div className="model">
             <img src={v1} alt="V1 du Sac" className="bag-model" />
           </div>
@@ -62,10 +60,10 @@ export default function CabaGammeSection() {
           </div>
         </div>
 
-        {/* Bag V3 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v2 */}
+        <div className="model-soft -card">
           <div className="model">
-            <img src={v3} alt="V3 du Sac" className="bag-model" />
+            <img src={v2} alt="v2 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">
@@ -73,10 +71,10 @@ export default function CabaGammeSection() {
           </div>
         </div>
 
-        {/* Bag V5 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v3 */}
+        <div className="model-soft -card">
           <div className="model">
-            <img src={v5} alt="V5 du Sac" className="bag-model" />
+            <img src={v3} alt="v3 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">
@@ -84,10 +82,10 @@ export default function CabaGammeSection() {
           </div>
         </div>
 
-        {/* Bag V6 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v4 */}
+        <div className="model-soft -card">
           <div className="model">
-            <img src={v6} alt="V6 du Sac" className="bag-model" />
+            <img src={v4} alt="v4 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">

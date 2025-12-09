@@ -1,4 +1,8 @@
-.caba-bag-card {
+.caba-image {
+  width: 91%;
+}  
+
+.caba-card {
   display: flex;
   flex-direction: column;
   background: white;
@@ -9,24 +13,12 @@
   width: 92%;
 }
 
-.caba-bag-card-title {
-  font-family: 'Fredoka';
-  font-size: 45px;
-  font-weight: 600;
-  color: #2CA397;
-  margin: auto 0px;
-}
-
-.caba-bag-card-text {
-  font-family: 'Century Gothic';
+.caba-card-text {
   font-size: 22px;
-  font-weight: 400;
-  color: #223B45;
   line-height: 150%;
-  width: 100%;
 }
 
-.caba-bag-card-text2 {
+.caba-card-text2 {
   font-family: 'Century Gothic';
   font-size: 22px;
   font-weight: 600;

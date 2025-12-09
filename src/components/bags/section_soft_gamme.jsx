@@ -1,31 +1,29 @@
 import { Link } from "react-router-dom";
 import "./section_soft_gamme.css";
 
-import soft_gamme from "../../assets/our_bags/gamme_legere.png";
-import v1 from "../../assets/our_bags/v1.png";
-import v3 from "../../assets/our_bags/v3.png";
-import v5 from "../../assets/our_bags/v5.png";
-import v6 from "../../assets/our_bags/v6.png";
+import soft_gamme from "../../assets/bags/gamme_legere.png";
+import v1 from "../../assets/bags/v1.png";
+import v2 from "../../assets/bags/v2.png";
+import v3 from "../../assets/bags/v3.png";
+import v4 from "../../assets/bags/v4.png";
 
 export default function SoftGammeSection() {
   return (
     <div className="soft-section">
-
-      <div className="title-soft">
-        <div className="title">GAMME LÉGÈRE</div>
-        <h2 className="subtitle">
+      <div className="soft-title">
+        <div className="sacadon-title2">GAMME LÉGÈRE</div>
+        <div className="sacadon-text soft-subtitle">
           Simple, pliable, réutilisable : pour les petits trajets du quotidien
-        </h2>
+        </div>
       </div>
 
-      {/* Sac Léger */}
-      <div className="soft-bag-content">
+      <div className="soft-content">
         <img src={soft_gamme} alt="Sac Gamme Légère" className="soft-image" />
 
-        <div className="soft-bag-card">
-          <p className="soft-bag-card-title">Le P'tit geste</p>
+        <div className="soft-card">
+          <p className="sacadon-title2 soft-card-title">Le P'tit geste</p>
           
-          <p className="soft-bag-card-text">
+          <p className="sacadon-text2 soft-card-text">
             Léger, pliable, réutilisable : <br />
             <b> le sac à bretelles réinventé. </b> <br />
             Fabriqué à partir de <b>plastique recyclé</b>, 
@@ -40,7 +38,7 @@ export default function SoftGammeSection() {
             ♻️ Matière : plastique recyclé (RPET)
           </p>
 
-          <p className="soft-bag-card-text2">
+          <p className="soft-card-text2">
             💝 Impact solidaire : 0,30 € reversés à l’association partenaire
           </p>          
        </div>
@@ -48,11 +46,10 @@ export default function SoftGammeSection() {
 
       {/* Différents modèles du sac */}
       <div className="model-list">
-
         {/* Bag V1 */}
-        <div className="model-soft-bag-card">
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v1} alt="V1 du Sac" className="bag-model" />
+            <img src={v1} alt="V1 du Sac" />
           </div>
         
           <div className="bag-button">
@@ -60,10 +57,10 @@ export default function SoftGammeSection() {
           </div>
         </div>
 
-        {/* Bag V3 */}
-        <div className="model-soft-bag-card">
+        {/* Bag V2 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v3} alt="V3 du Sac" className="bag-model" />
+            <img src={v2} alt="v2 du Sac" />
           </div>
         
           <div className="bag-button">
@@ -71,10 +68,10 @@ export default function SoftGammeSection() {
           </div>
         </div>
 
-        {/* Bag V5 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v2 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v5} alt="V5 du Sac" className="bag-model" />
+            <img src={v3} alt="v3 du Sac" />
           </div>
         
           <div className="bag-button">
@@ -82,10 +79,10 @@ export default function SoftGammeSection() {
           </div>
         </div>
 
-        {/* Bag V6 */}
-        <div className="model-soft-bag-card">
+        {/* Bag V4 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v6} alt="V6 du Sac" className="bag-model" />
+            <img src={v4} alt="v4 du Sac" />
           </div>
         
           <div className="bag-button">

@@ -1,6 +1,6 @@
 import "./section_schema_impact.css";
 
-import sacImpact from "../../assets/our_bags/v6.png";
+import sacImpact from "../../assets/bags/v4.png";
 
 import dechets from "../../assets/schema_impact/dechets_evites.png";
 import don from "../../assets/schema_impact/don_asso.png";

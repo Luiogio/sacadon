@@ -37,7 +37,7 @@ export default function FAQJoin() {
 
   return (
     <div className="faq-section">
-      <h1 className="faq-title">FOIRE AUX QUESTIONS</h1>
+      <div className="faq-title">FOIRE AUX QUESTIONS</div>
 
       <div className="faq-grid">
         {faqs.map((item, index) => (

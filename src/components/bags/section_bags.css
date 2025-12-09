@@ -1,10 +1,14 @@
-.our-bags-section {
-  background-color: #F4EBDC;
+.bags-section {
   padding: 100px 40px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  margin: 0 auto;
   position: relative;
 }
 
-.our-bags-section::before {
+.bags-section::before {
   content: "02";
   font-family: Fredoka;
   position: absolute;
@@ -13,62 +17,37 @@
   font-size: 200px;
   font-weight: 500;
   color: rgba(200, 0, 0, 0.1);
-}
+}  
 
-.our-bags-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.our-bags-text-content {
+.bags-text-content {
   flex: 1;
   position: relative;
   bottom: 6vh;
   right: 2vw;
   padding-left: 5vw;
-  font-family: Fredoka;
 }
 
-.our-bags-title {
-  font-family: Fredoka;
-  font-size: 90px;
-  font-weight: 600;
-  color: #223B45;
+.bags-title {
   margin-top: 40px;
   margin-bottom: 15px;
 }
 
-.our-bags-subtitle {
-  font-size: 40px;
-  font-weight: 500;
-  font-family: 'Cormorant Garamond';
-  color: #DB214F;
+.bags-subtitle {
   margin: 16px 0;
 }
 
-.our-bags-subtitle span {
-  font-weight: 500;
-}
-
-.our-bags-text {
-  font-family: 'Century Gothic';
-  font-size: 25px;
-  color: #223B45;
+.bags-text {
   line-height: 1.6;
 }
 
-.our-bags-link {
+/* .bags-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 38rem;
 }
 
-.our-bags-filtre {
+.bags-filtre {
   color: #DB214F;
   font-weight: 600;
   font-size: 20px;
@@ -79,28 +58,14 @@
   width: 3vw;
 }
 
-.our-bags-filtres {
+.bags-filtres {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 1rem;
 }
 
-.our-bags-image-content {
-  flex: 1;
-  text-align: center;
-  position: relative;
-  bottom: 6rem;
-}
-
-.our-bags-image {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-.our-bags-button {
+.bags-button {
   background-color: #DB214F;
   color: white;
   font-weight: 600;
@@ -114,17 +79,31 @@
   margin: auto;
 }
 
-.our-bags-button div {
+.bags-button div {
   margin: auto;
 }
 
-.our-bags-button:hover {
+.bags-button:hover {
   background-color: #a71e2d;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}   */
+
+.bags-image-content {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  bottom: 6rem;
 }  
 
-.our-bags-mode {
+.bags-image-content img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}  
+
+/* .bags-mode {
   background-color: #DB214F;
   color: white;
   font-weight: 600;
@@ -138,34 +117,34 @@
   margin: auto;
 }
 
-.our-bags-mode:hover {
+.bags-mode:hover {
   background-color: #a71e2d;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}  
+}   */
 
 @media (max-width: 900px) {
-  .our-bags-container {
+  .bags-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .our-bags-text-content,
-  .our-bags-image-content {
+  .bags-text-content,
+  .bags-image-content {
     flex: unset;
   }
 
-  .our-bags-section::before {
+  .bags-section::before {
     font-size: 6rem;
     top: 10px;
     left: 10px;
   }
 
-  .our-bags-title {
+  .bags-title {
     font-size: 2rem;
   }
 
-  .our-bags-subtitle {
+  .bags-subtitle {
     font-size: 1.2rem;
   }
 }

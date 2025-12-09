@@ -10,10 +10,6 @@
   text-align: center;
 }
 
-.faq-subtitle {
-  margin-left: 10vw;
-}
-
 .faq-title::before {
   content: "FOIRE AUX QUESTIONS";
   font-family: Fredoka;
@@ -24,6 +20,14 @@
   font-weight: 700;
   color: rgba(200, 0, 0, 0.1);
 }
+
+.faq-title-pages {
+  text-align: center;
+}
+
+.faq-subtitle {
+  margin-left: 10vw;
+}  
 
 .faq-grid {
   display: grid;
@@ -65,18 +69,7 @@
 }
 
 .faq-button {
-  background-color: #DB214F;
-  color: #F4EBDC;
-  font-family: 'Century Gothic';
-  font-size: 20px;
-  font-weight: 700;
-  border: none;
-  border-radius: 30px;
-  padding: 14px 28px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.faq-button:hover {
-  background-color: #c2184a;
+  width: 17vw;
+  padding: 15px 20px;
+  margin-top: 60px;
 }

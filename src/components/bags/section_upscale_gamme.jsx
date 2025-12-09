@@ -1,31 +1,30 @@
 import { Link } from "react-router-dom";
 import "./section_upscale_gamme.css";
 
-import upscale_gamme from "../../assets/our_bags/gamme_upscale.png";
-import v1 from "../../assets/our_bags/v1.png";
-import v3 from "../../assets/our_bags/v3.png";
-import v5 from "../../assets/our_bags/v5.png";
-import v6 from "../../assets/our_bags/v6.png";
+import upscale_gamme from "../../assets/bags/gamme_upscale.png";
+import v1 from "../../assets/bags/v1.png";
+import v2 from "../../assets/bags/v2.png";
+import v3 from "../../assets/bags/v3.png";
+import v4 from "../../assets/bags/v4.png";
 
 export default function UpscaleGammeSection() {
   return (
     <div className="soft-section">
-
-      <div className="title-soft">
-        <div className="title">HAUT DE GAMME</div>
-        <h2 className="subtitle">
+      <div className="soft-title">
+        <div className="sacadon-title2">HAUT DE GAMME</div>
+        <div className="sacadon-text soft-subtitle">
           L’élégance utile, le geste solidaire
-        </h2>
+        </div>
       </div>
 
       {/* Sac Léger */}
-      <div className="soft-bag-content">
-          <img src={upscale_gamme} alt="Sac Haut de Gamme" className="upscale-image" />
+      <div className="soft-content">
+          <img src={upscale_gamme} alt="Sac Haut de Gamme" className="soft-image upscale-image" />
 
-        <div className="upscale-bag-card">
-          <p className="upscale-bag-card-title">Le Signature</p>
+        <div className="upscale-card">
+          <p className="sacadon-title2 upscale-card-title">Le Signature</p>
           
-          <p className="upscale-bag-card-text">
+          <p className="sacadon-text2 upscale-card-text">
             Conçu pour <b>durer</b>, pensé pour vous accompagner avec <b>style</b>, 
             il associe <b>design sobre, finitions soignées et impact positif.</b><br />
             Il vous suit au marché, au travail, à la plage… <br />
@@ -43,7 +42,7 @@ export default function UpscaleGammeSection() {
             🧼 Entretien : lavable en machine à 30°C
           </p>
 
-          <p className="upscale-bag-card-text2">
+          <p className="upscale-card-text2">
             💝 Impact solidaire : 1 € reversés à l’association partenaire
           </p>          
        </div>
@@ -53,7 +52,7 @@ export default function UpscaleGammeSection() {
       <div className="model-list">
 
         {/* Bag V1 */}
-        <div className="model-soft-bag-card">
+        <div className="model-soft-card">
           <div className="model">
             <img src={v1} alt="V1 du Sac" className="bag-model" />
           </div>
@@ -63,10 +62,10 @@ export default function UpscaleGammeSection() {
           </div>
         </div>
 
-        {/* Bag V3 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v2 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v3} alt="V3 du Sac" className="bag-model" />
+            <img src={v2} alt="v2 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">
@@ -74,10 +73,10 @@ export default function UpscaleGammeSection() {
           </div>
         </div>
 
-        {/* Bag V5 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v3 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v5} alt="V5 du Sac" className="bag-model" />
+            <img src={v3} alt="v3 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">
@@ -85,10 +84,10 @@ export default function UpscaleGammeSection() {
           </div>
         </div>
 
-        {/* Bag V6 */}
-        <div className="model-soft-bag-card">
+        {/* Bag v4 */}
+        <div className="model-soft-card">
           <div className="model">
-            <img src={v6} alt="V6 du Sac" className="bag-model" />
+            <img src={v4} alt="v4 du Sac" className="bag-model" />
           </div>
         
           <div className="bag-button">
