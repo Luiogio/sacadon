@@ -22,6 +22,9 @@
 
 .actu-button {
   margin: auto;
-  width: 17vw;
   padding: 60px 60px;
+}
+
+.actu-button a {
+  width: 15vw;
 }

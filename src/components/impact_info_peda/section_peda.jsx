@@ -17,22 +17,22 @@ export default function SectionPeda() {
       </p>
 
       <div className="partners-logos peda-logo">
-        <div className="schema-impact-card-right">
+        <div className="schema-impact-card-right peda-card">
           <img src={inclusive} className="icon" />
-          <div className="schema-impact-title">INCLUSIVE</div>
-          <div className="schema-impact-text">Adaptée à tous, et à tous les âges</div>
+          <div className="sacadon-title schema-impact-title">INCLUSIVE</div>
+          <div className="sacadon-text2 schema-impact-text">Adaptée à tous, et à tous les âges</div>
         </div>
 
         <div className="schema-impact-card-right">
           <img src={creative} className="icon" />
-          <div className="schema-impact-title">CRÉATIVE</div>
-          <div className="schema-impact-text">Design, couleurs, illustrations</div>
+          <div className="sacadon-title schema-impact-title">CRÉATIVE</div>
+          <div className="sacadon-text2 schema-impact-text">Design, couleurs, illustrations</div>
         </div>
 
         <div className="schema-impact-card-right">
           <img src={ancree} className="icon" />
-          <div className="schema-impact-title">ANCRÉE</div>
-          <div className="schema-impact-text">
+          <div className="sacadon-title schema-impact-title">ANCRÉE</div>
+          <div className="sacadon-text2 schema-impact-text">
             Ancrée dans le réel, de part les chiffres, l’impact du projet
           </div>
         </div>
