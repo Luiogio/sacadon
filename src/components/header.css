@@ -35,11 +35,11 @@ header {
 }  
 
 .btn_header {
-  text-decoration: none;
   font-family: Century Gothic;
   font-size: 1.2vw;
-  font-weight: bold;
   color: #223B45;
+  text-decoration: none;
+  font-weight: 600;
   background-color: #F5EBDB;
   margin: 0;
   margin-top: 11px;
@@ -54,12 +54,12 @@ header {
   top: 2rem;
 }      
 
-/* Mennu Impact */
+/* Menu Impact */
 .dropdown-menu {
-  width: 16rem;
+  width: 17vw;
   position: absolute;
-  top: 9rem;
-  left: 53.5rem;
+  top: 15vh;
+  left: 43vw;
 
   opacity: 0;
   transition: all 0.3s ease;
@@ -76,17 +76,17 @@ header {
 }  
 
 .btn_nav_impact {
-  text-decoration: none;
-  color: #F4EBDC;
   background-color: #DB214F;
   font-family: Century Gothic;
-  border-radius: 50px;
   font-size: 20px;
+  text-decoration: none;
+  color: #F4EBDC;
+  border-radius: 50px;
   font-weight: bold;
   padding: 2vh 1vw;
   text-align: center;
 }
-/* Mennu Impact */
+/* Menu Impact */
 
 .shopping {
   position: absolute;
