@@ -17,13 +17,13 @@ export default function End() {
       </p>
 
       <div className="end-buttons">
-        <Link to="/solution" className="need-more-button end-btn">
+        <Link to="/contact" className="need-more-button end-btn">
           Nous contacter
         </Link>
         <Link to="/solution" className="need-more-button end-btn">
-          Nous solution
+          Notre solution
         </Link>
-        <Link to="/solution" className="need-more-button end-btn">
+        <Link to="/nous-rejoindre" className="need-more-button end-btn">
           Nous rejoindre
         </Link>
       </div>
