@@ -17,29 +17,22 @@
   width: 10vw;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .mission-container {
+@media (max-width: 800px) {
+  .sacadon-container {
     flex-direction: column;
-    text-align: center;
   }
 
-  .mission-text-content,
-  .mission-image-content {
-    flex: unset;
+  .mission-image {
+    display: none;
   }
 
-  .mission-section::before {
-    font-size: 6rem;
-    top: 10px;
-    left: 10px;
+  .mission-button {
+    width: 30vw;
   }
+}
 
-  .sacadon-title {
-    font-size: 2rem;
-  }
-
-  .mission-subtitle {
-    font-size: 1.2rem;
+@media (max-width: 450px) {
+  .mission-button {
+    width: 55vw;
   }
 }

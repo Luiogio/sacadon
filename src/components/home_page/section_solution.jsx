@@ -38,7 +38,7 @@ export default function SolutionSection() {
         </div>
       </div>
 
-      <Link to="/solution" className="need-more-button solution-button">
+      <Link to="/solution" className="need-more-button mission-button">
         En savoir plus +
       </Link>
     </div>

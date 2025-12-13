@@ -109,3 +109,29 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
+@media (max-width: 800px) {
+  .sacadon-section {
+    padding-top: 175px;
+  }
+
+  .sacadon-title {
+    font-size: 75px;
+  }
+
+  .sacadon-text {
+    font-size: 55px;
+  }
+
+  .need-more-button {
+    padding: 15px 60px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .need-more-button {
+    padding: 15px 40px;
+    font-size: 25px;
+  }
+}

@@ -18,7 +18,7 @@ export default function ProblemeSection() {
       </div>
 
       <div className="probleme-content">
-        <div>
+        <div className="img-content">
           <img
             src={tortue}
             alt="Pollution plastique avec une tortue"

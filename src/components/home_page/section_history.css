@@ -50,3 +50,9 @@
 .history-text a:hover{
   font-weight: bold;
 }
+
+@media (max-width: 900px) {
+  .history-section {
+    flex-direction: column;
+  }
+}

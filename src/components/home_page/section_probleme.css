@@ -77,16 +77,41 @@
   margin-top: 15px;
 }
 
-@media (max-width: 768px) {
-  .content {
-    grid-template-columns: 1fr;
+@media (max-width: 900px) {
+  .probleme-top-section {
+    flex-direction: column;
+    gap: 0
   }
 
-  .title {
-    font-size: 2rem;
+  .probleme-intro {
+    font-size: 25px;
+    position: inherit;
+    width: auto;
   }
 
-  .subtitle {
-    font-size: 1.2rem;
+  .probleme-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5rem;
+  }
+
+  .img-content {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .source {
+    display: none;
+  }
+
+  .card-text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .probleme-card {
+    flex-direction: column;
   }
 }
